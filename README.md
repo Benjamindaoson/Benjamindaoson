@@ -1,97 +1,147 @@
 <div align="center">
 
-# Benjamin Daoson
+# LLM Algorithms × Agent Systems
 
-### Senior AI Engineer · Agent Systems · LLM Post-training · RAG · Embodied AI
+**Model training, alignment and evaluation — plus production-grade agent systems.**
 
-Building reliable AI systems from **model → agent → data → evaluation → product**.
+I build across both sides of modern AI engineering: **training and evaluating models**, and **turning them into reliable agent systems**.
 
-[![GitHub](https://img.shields.io/badge/GitHub-Benjamindaoson-181717?logo=github)](https://github.com/Benjamindaoson)
-[![Portfolio](https://img.shields.io/badge/Portfolio-benjamindaoson.github.io-0A66C2?logo=googlechrome&logoColor=white)](https://benjamindaoson.github.io/)
-[![Location](https://img.shields.io/badge/Location-Shenzhen-444?logo=googlemaps&logoColor=white)](https://www.google.com/maps/place/Shenzhen)
+[Portfolio](https://benjamindaoson.github.io/) · [Repositories](https://github.com/Benjamindaoson?tab=repositories)
 
 </div>
 
 ---
 
-## Selected Engineering
+## LLM Algorithms
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33.33%" valign="top">
 
-### [SalesBoost](https://github.com/Benjamindaoson/SalesBoost)
-**Enterprise AI Agent Platform**
+### [01 · Reward Modeling Lab](https://github.com/Benjamindaoson/reward-modeling-lab)
 
-Production-oriented multi-agent sales intelligence system with dynamic orchestration, Hybrid RAG, memory, evaluation and observability.
+**Reward Modeling · Preference Learning**
 
-`LangGraph` · `FastAPI` · `Hybrid RAG` · `Redis` · `PostgreSQL` · `OpenTelemetry`
+Real 8B reward-model post-training on a single NVIDIA A10 with 4-bit QLoRA.
 
-**Focus:** agent orchestration, reliable tool use, multi-tier memory, evaluation, enterprise AI product engineering.
+**50.42% → 91.35%** held-out pairwise accuracy, followed by length-shortcut, ranking, truncation and checkpoint audits.
 
-</td>
-<td width="50%" valign="top">
-
-### [Reward Modeling Lab](https://github.com/Benjamindaoson/reward-modeling-lab)
-**LLM Post-training & Reward Auditing**
-
-8B reward-model post-training project with real GPU training, pairwise preference learning, ranking evaluation and shortcut audits.
-
-`QLoRA` · `Preference Learning` · `Reward Modeling` · `Robustness Audit`
-
-**Result:** held-out pairwise accuracy improved from **50.42% → 91.35%**, followed by controlled tests for length shortcuts and ranking validity.
+`QLoRA` `Pairwise Loss` `Ranking Eval` `Reward Audit`
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="33.33%" valign="top">
 
-### [Enterprise Data Agent](https://github.com/Benjamindaoson/enterprise-data-agent)
-**Evidence-grounded Analytics Agent**
+### 02 · Policy Optimization Lab
 
-Turns business questions into structured investigations, governed data execution, traceable evidence and shareable reports.
+**SFT · Preference Optimization · RL**
 
-`FastAPI` · `DuckDB` · `Parquet` · `Semantic Layer` · `Evidence` · `Validation`
+Research track for the policy side of post-training: supervised adaptation, preference optimization and reinforcement-learning-based improvement.
 
-**Focus:** trustworthy analytics, semantic context, reproducible claims and auditability.
+Focus: **DPO / GRPO, reward design, policy evaluation and reward-hacking diagnostics**.
+
+`SFT` `DPO` `GRPO` `Policy Eval`
+
+<sub>ACTIVE RESEARCH · public release after reproducible results</sub>
 
 </td>
-<td width="50%" valign="top">
+<td width="33.33%" valign="top">
 
-### [Haole](https://github.com/Benjamindaoson/haole)
-**Durable Multi-Agent Workspace**
+### 03 · Verifier & Multimodal RL
 
-A professional agent workspace with group collaboration, skills, MCP tools, human-in-the-loop interaction and replayable event delivery.
+**Verifier Learning · Reasoning · Multimodal RL**
 
-`LangGraph` · `MCP` · `Redis Streams` · `PostgreSQL` · `SSE` · `Next.js`
+Research track for learning signals beyond a single scalar reward: verifier-based evaluation, reasoning quality and multimodal policy learning.
 
-**Focus:** agent runtime, task contracts, event durability, skills and tool infrastructure.
+Focus: **process / outcome verification, hard negatives, controlled evaluation and multimodal reward signals**.
+
+`Verifier` `Reasoning` `Multimodal` `RL`
+
+<sub>ACTIVE RESEARCH · public release after reproducible results</sub>
 
 </td>
 </tr>
+</table>
+
+**LLM coverage:** data → SFT / LoRA → preference learning → reward modeling → policy optimization → verifier → robustness evaluation.
+
+---
+
+## Agent Systems
+
+<table>
 <tr>
-<td width="50%" valign="top">
+<td width="33.33%" valign="top">
+
+### [01 · SalesBoost](https://github.com/Benjamindaoson/SalesBoost)
+
+**Enterprise Agent Application**
+
+End-to-end multi-agent sales intelligence platform spanning training, battle preparation, live assistance and evaluation.
+
+`LangGraph` `Hybrid RAG` `Memory` `Evaluation` `Observability`
+
+**Proves:** business workflow design, orchestration, retrieval, memory and production-shaped AI application engineering.
+
+</td>
+<td width="33.33%" valign="top">
+
+### [02 · Haole](https://github.com/Benjamindaoson/haole)
+
+**Agent Runtime & Workspace**
+
+Durable multi-agent workspace built around explicit task contracts, skills, MCP tools, HITL and replayable events.
+
+`MCP` `Skills` `Redis Streams` `SSE` `PostgreSQL`
+
+**Proves:** runtime design, durable execution, tool infrastructure and human-controlled agent workflows.
+
+</td>
+<td width="33.33%" valign="top">
+
+### [03 · Enterprise Data Agent](https://github.com/Benjamindaoson/enterprise-data-agent)
+
+**Data Intelligence Agent**
+
+Turns business questions into governed execution, observations, claims, evidence and validated reports.
+
+`Semantic Layer` `DuckDB` `Evidence` `Validation` `FastAPI`
+
+**Proves:** structured investigation, data reasoning, evidence lineage and trustworthy agent execution.
+
+</td>
+</tr>
+</table>
+
+**Agent coverage:** intent → planning → retrieval / tools → state / memory → durable execution → evidence → evaluation → recovery.
+
+---
+
+## More Engineering
+
+<table>
+<tr>
+<td width="33.33%" valign="top">
 
 ### [Huisen AI](https://github.com/Benjamindaoson/huisen-ai-adaptive-algorithm-coach)
 **Adaptive AI Learning System**
 
-Evidence-driven AI mentor that diagnoses learner difficulty, observes code execution, gives minimal guidance and verifies transfer rather than rewarding answer copying.
-
-`React` · `TypeScript` · `Judge0` · `PostgreSQL` · `Redis` · `Agent Tools`
-
-**Focus:** adaptive learning, mentor agents, code execution, longitudinal evidence and AI product design.
+Mentor agent + code execution + transfer verification + longitudinal learning evidence.
 
 </td>
-<td width="50%" valign="top">
+<td width="33.33%" valign="top">
 
-### [Financial Asset QA System](https://github.com/Benjamindaoson/Financial_Asset_QA_System)
+### [Financial Asset QA](https://github.com/Benjamindaoson/Financial_Asset_QA_System)
 **Trustworthy Financial AI**
 
-Deterministic financial QA pipeline that separates data computation from language generation and validates generated numerical claims against tool outputs.
+Deterministic data pipeline with grounded numerical generation and response guardrails.
 
-`FastAPI` · `RAG` · `Redis` · `SSE` · `Market APIs` · `Guardrails`
+</td>
+<td width="33.33%" valign="top">
 
-**Focus:** deterministic AI workflows, source-grounded numerical reasoning and graceful degradation.
+### [AI Agent Engineering Lab](https://github.com/Benjamindaoson/ai-agent-engineering-lab)
+**Agent Engineering Lab**
+
+Runnable projects covering ReAct, deep research, MCP, A2A, workflows and agent application patterns.
 
 </td>
 </tr>
@@ -99,68 +149,43 @@ Deterministic financial QA pipeline that separates data computation from languag
 
 ---
 
-## Technical Focus
+## Technical Coverage
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Agent%20Systems-LangGraph%20%C2%B7%20MCP%20%C2%B7%20Tool%20Use%20%C2%B7%20Memory-4C8BF5" />
-  <img src="https://img.shields.io/badge/LLM%20Post--training-QLoRA%20%C2%B7%20Reward%20Modeling%20%C2%B7%20Preference%20Learning-7B61FF" />
-  <img src="https://img.shields.io/badge/RAG%20%26%20Data-Hybrid%20Retrieval%20%C2%B7%20Reranking%20%C2%B7%20Semantic%20Layer-1F8A70" />
-  <img src="https://img.shields.io/badge/AI%20Systems-FastAPI%20%C2%B7%20PostgreSQL%20%C2%B7%20Redis%20%C2%B7%20Docker-555" />
-</p>
-
-| Area | What I build |
-|---|---|
-| **Agent Systems** | Orchestration, tool use, memory, HITL, MCP, durable workflows, multi-agent coordination |
-| **LLM Post-training** | LoRA/QLoRA, reward modeling, preference learning, evaluation, robustness audits |
-| **Retrieval & Data Intelligence** | Hybrid RAG, reranking, semantic layers, structured analytics, evidence pipelines |
-| **AI Product Engineering** | FastAPI services, React/Next.js interfaces, PostgreSQL/Redis infrastructure, observability, evaluation |
-| **Embodied AI** | Robot learning / VLA research and failure-oriented evaluation |
+| LLM Algorithms | Agent Engineering | Systems |
+|---|---|---|
+| SFT · LoRA / QLoRA | LangGraph · Multi-Agent | Python · FastAPI |
+| Reward Modeling | Tool Use · MCP · Skills | PostgreSQL · Redis |
+| Preference Learning | Memory · Context · HITL | Qdrant · DuckDB |
+| DPO / GRPO | Hybrid RAG · Reranking | Docker · Nginx |
+| Verifier / Evaluation | Durable Execution | OpenTelemetry · Prometheus |
+| Robustness / Shortcut Audit | Agent Evaluation · Recovery | React · Next.js · Vue |
 
 ---
 
-## Current Research Interests
+## Research
 
-I am particularly interested in **reliable learning and adaptation in AI systems**: how models, agents and embodied policies learn from errors, how failures can be attributed, and how recovery can be made more targeted and verifiable.
+**How should models and agents learn from failure rather than merely avoid it?**
 
-Current directions include:
-
-- **LLM learning from error resolution** and corrective supervision
-- **Agent reliability, provenance and recovery** in long-horizon execution
-- **Robot learning / Vision-Language-Action systems**, especially failure attribution and learning from unsuccessful trajectories
+- How should corrective supervision change a model, and **where** should that update happen?
+- How should an agent **attribute a failure before choosing a recovery strategy**?
+- How should embodied policies learn from **unsuccessful trajectories and action-level feedback**?
 
 ---
 
-## Engineering Principles
+## Evidence Standard
 
 ```text
-Build the system.
-Measure the behavior.
-Attack the result.
-Trace the evidence.
-Fix the failure mode.
+Build → Run → Measure → Attack → Diagnose → Improve
 ```
 
-I prefer systems where important claims can be traced to **code, experiments, artifacts or execution evidence** rather than presentation alone.
-
----
-
-## Stack
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,postgres,redis,docker,react,nextjs,typescript,java,mysql,git,github" />
-</p>
-
-**AI / Agent:** LangGraph · LangChain · MCP · RAG · Qdrant · BGE · LoRA / QLoRA · Reward Modeling  
-**Backend / Data:** Python · FastAPI · SQLAlchemy · PostgreSQL · Redis · MySQL · DuckDB  
-**Frontend:** React · Next.js · TypeScript · Vue · Vite  
-**Infra / Quality:** Docker · Nginx · GitHub Actions · OpenTelemetry · Prometheus · Playwright
+Public claims on this profile are intended to be traceable to **code, experiments, tests, artifacts or execution evidence**. Research tracks remain labeled as research until reproducible results are ready for public release.
 
 ---
 
 <div align="center">
 
-### From prototypes to evidence-backed AI systems.
+**LLM Algorithms · Agent Systems · Reliable AI Engineering**
 
-[Projects](https://github.com/Benjamindaoson?tab=repositories) · [Portfolio](https://benjamindaoson.github.io/)
+[Portfolio](https://benjamindaoson.github.io/) · [All Projects](https://github.com/Benjamindaoson?tab=repositories)
 
 </div>
