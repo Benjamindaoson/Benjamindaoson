@@ -1,0 +1,79 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="40" y1="20" x2="1240" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.48" stop-color="#111C35"/>
+      <stop offset="1" stop-color="#0A1628"/>
+    </linearGradient>
+    <linearGradient id="title" x1="98" y1="0" x2="840" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="0.48" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="llm" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#8B5CF6" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#4F46E5" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="agent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#10B981" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#14B8A6" stop-opacity="0.08"/>
+    </linearGradient>
+    <radialGradient id="glowPurple" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1065 50) rotate(135) scale(240 190)">
+      <stop stop-color="#7C3AED" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowGreen" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1120 300) rotate(-140) scale(250 180)">
+      <stop stop-color="#10B981" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#020617" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="1278" height="358" rx="28" fill="url(#bg)" stroke="#23324D" stroke-width="2"/>
+  <rect x="1" y="1" width="1278" height="358" rx="28" fill="url(#glowPurple)"/>
+  <rect x="1" y="1" width="1278" height="358" rx="28" fill="url(#glowGreen)"/>
+
+  <g opacity="0.5">
+    <circle cx="1185" cy="76" r="3" fill="#A78BFA"/>
+    <circle cx="1217" cy="109" r="2" fill="#60A5FA"/>
+    <circle cx="1158" cy="128" r="2" fill="#34D399"/>
+    <path d="M1010 62H1210" stroke="#334155" stroke-width="1" stroke-dasharray="5 8"/>
+    <path d="M1000 292H1210" stroke="#334155" stroke-width="1" stroke-dasharray="5 8"/>
+  </g>
+
+  <text x="88" y="72" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3">BENJAMIN DAOSON · AI ENGINEERING</text>
+  <text x="88" y="138" fill="url(#title)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="48" font-weight="800">LLM Post-training × Agent Systems</text>
+  <text x="88" y="184" fill="#E2E8F0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="500">From model training and alignment to production-grade agent systems.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="88" y="226" width="340" height="82" rx="18" fill="url(#llm)" stroke="#8B5CF6" stroke-opacity="0.45"/>
+    <circle cx="122" cy="253" r="9" fill="#A78BFA"/>
+    <text x="146" y="259" fill="#C4B5FD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="800" letter-spacing="1.2">LLM POST-TRAINING</text>
+    <text x="114" y="287" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="500">SFT · Preference Learning · Reward Modeling · RL · Evaluation</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="448" y="226" width="340" height="82" rx="18" fill="url(#agent)" stroke="#10B981" stroke-opacity="0.45"/>
+    <circle cx="482" cy="253" r="9" fill="#34D399"/>
+    <text x="506" y="259" fill="#A7F3D0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="800" letter-spacing="1.2">AGENT SYSTEMS</text>
+    <text x="474" y="287" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="500">Orchestration · Tools · Memory · MCP · Evaluation · Reliability</text>
+  </g>
+
+  <g transform="translate(895 104)">
+    <path d="M0 70C52 70 52 0 104 0" stroke="#8B5CF6" stroke-width="3" stroke-linecap="round"/>
+    <path d="M104 0C156 0 156 70 208 70" stroke="#60A5FA" stroke-width="3" stroke-linecap="round"/>
+    <path d="M208 70C260 70 260 0 312 0" stroke="#10B981" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="0" cy="70" r="8" fill="#A78BFA"/>
+    <circle cx="104" cy="0" r="8" fill="#60A5FA"/>
+    <circle cx="208" cy="70" r="8" fill="#38BDF8"/>
+    <circle cx="312" cy="0" r="8" fill="#34D399"/>
+    <text x="-17" y="103" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">DATA</text>
+    <text x="76" y="-18" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">LEARN</text>
+    <text x="183" y="103" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">ACT</text>
+    <text x="278" y="-18" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">VERIFY</text>
+  </g>
+
+  <text x="1192" y="326" text-anchor="end" fill="#64748B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">MODEL → AGENT → SYSTEM</text>
+</svg>
