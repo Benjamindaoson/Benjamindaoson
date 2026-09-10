@@ -1,14 +1,11 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/profile-hero.svg" alt="Benjamin Daoson — LLM Post-training × Agent Systems" width="100%" />
+</p>
 
-# LLM Algorithms × Agent Systems
-
-**Model training, alignment and evaluation — plus production-grade agent systems.**
-
-I build across both sides of modern AI engineering: **training and evaluating models**, and **turning them into reliable agent systems**.
-
-[Portfolio](https://benjamindaoson.github.io/) · [Repositories](https://github.com/Benjamindaoson?tab=repositories)
-
-</div>
+<p align="center">
+  <a href="https://benjamindaoson.github.io/">Portfolio</a> ·
+  <a href="https://github.com/Benjamindaoson?tab=repositories">Repositories</a>
+</p>
 
 ---
 
