@@ -3,7 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="https://benjamindaoson.github.io/">Portfolio</a> ·
+  <a href="https://benjamindaoson.github.io/daoson_website/">Portfolio</a> ·
+  <a href="https://benjamindaoson.github.io/daoson_website/knowledge/">Knowledge</a> ·
   <a href="https://github.com/Benjamindaoson?tab=repositories">Repositories</a>
 </p>
 
