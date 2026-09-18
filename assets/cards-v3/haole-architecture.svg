@@ -1,0 +1,17 @@
+<svg width="760" height="420" viewBox="0 0 760 420" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="760" y2="420"><stop stop-color="#07261D"/><stop offset="1" stop-color="#0B1220"/></linearGradient></defs>
+<rect width="760" height="420" rx="24" fill="url(#bg)"/>
+<text x="34" y="42" fill="#86EFAC" font-family="Inter,Segoe UI,Arial" font-size="19" font-weight="700">Haole · durable multi-agent runtime</text>
+<text x="34" y="68" fill="#94A3B8" font-family="Inter,Segoe UI,Arial" font-size="13">LangGraph orchestration · Redis task bus · MCP tools · HITL · replayable events</text>
+<g font-family="Inter,Segoe UI,Arial" text-anchor="middle">
+<rect x="264" y="96" width="232" height="48" rx="10" fill="#14532D" stroke="#4ADE80"/><text x="380" y="125" fill="#F0FDF4" font-size="14">Chat / Group Workspace</text>
+<rect x="248" y="174" width="264" height="52" rx="10" fill="#166534" stroke="#4ADE80"/><text x="380" y="196" fill="#F0FDF4" font-size="14">LangGraph Orchestrator</text><text x="380" y="214" fill="#BBF7D0" font-size="12">Plan · Ask · Auto · HITL</text>
+<rect x="247" y="256" width="266" height="48" rx="10" fill="#14532D" stroke="#4ADE80"/><text x="380" y="285" fill="#F0FDF4" font-size="14">Redis Streams · AgentTask / AgentResult</text>
+<rect x="34" y="338" width="150" height="46" rx="9" fill="#0E2B1B" stroke="#22C55E"/><text x="109" y="366" fill="#DCFCE7" font-size="13">Text Worker</text>
+<rect x="214" y="338" width="150" height="46" rx="9" fill="#0E2B1B" stroke="#22C55E"/><text x="289" y="366" fill="#DCFCE7" font-size="13">Document Worker</text>
+<rect x="394" y="338" width="150" height="46" rx="9" fill="#0E2B1B" stroke="#22C55E"/><text x="469" y="366" fill="#DCFCE7" font-size="13">Image Worker</text>
+<rect x="574" y="338" width="150" height="46" rx="9" fill="#0E2B1B" stroke="#22C55E"/><text x="649" y="357" fill="#DCFCE7" font-size="13">AV Worker</text><text x="649" y="374" fill="#86EFAC" font-size="11">MCP tools</text>
+</g>
+<g stroke="#64748B" stroke-width="2" fill="none"><path d="M380 144V174"/><path d="M380 226V256"/><path d="M380 304V320H109V338"/><path d="M380 320H289V338"/><path d="M380 320H469V338"/><path d="M380 320H649V338"/></g>
+<text x="553" y="207" fill="#86EFAC" font-family="Inter,Segoe UI,Arial" font-size="12">Unified UserEvent → PostgreSQL / Redis → WS / SSE</text>
+</svg>
