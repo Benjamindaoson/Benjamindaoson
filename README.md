@@ -1,5 +1,11 @@
+<p align="right">
+  <a href="./README.zh-CN.md">
+    <img src="https://img.shields.io/badge/简体中文-1F6FEB?style=for-the-badge" alt="简体中文" />
+  </a>
+</p>
+
 <p align="center">
-  <img src="./assets/profile-hero.svg" alt="Benjamin Daoson — LLM Post-training × Agent Systems" width="100%" />
+  <img src="./assets/profile-hero.svg" alt="Benjamin Daoson — Agent Harness × LLM & Model Systems × Physical AI" width="100%" />
 </p>
 
 <p align="center">
@@ -9,125 +15,112 @@
 </p>
 
 <table>
-<tr>
-<td width="50%" valign="top">
+  <tr>
+    <td width="33%" valign="top">
+      <h2>🤖 Agent Harness</h2>
+      <sub><b>Agent Systems Engineering</b><br/>Build reliable agents around models: runtime, state, tools, orchestration, recovery and evaluation.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <h2>🧠 LLM &amp; Model Systems</h2>
+      <sub><b>Post-training · Reward · Multimodal</b><br/>Train, align and evaluate model behavior with preference learning, RL and controlled evaluation.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <h2>🦾 Physical AI</h2>
+      <sub><b>Embodied Intelligence</b><br/>Connect models to the physical world through VLA, simulation, embodied data and decision systems.</sub>
+    </td>
+  </tr>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/LLM-ALGORITHMS-7C3AED?style=for-the-badge" />
-  <br/>
-  <sub><b>TRAIN · ALIGN · EVALUATE</b></sub>
-</p>
+  <tr>
+    <td valign="top">
+      <a href="https://github.com/Benjamindaoson/SalesBoost"><img src="./assets/cards-v2/salesboost.svg" width="100%" alt="SalesBoost" /></a>
+      <br/><b><a href="https://github.com/Benjamindaoson/SalesBoost">SalesBoost</a></b>
+      <img src="https://img.shields.io/badge/FLAGSHIP-059669?style=flat-square" alt="Flagship" />
+      <br/><sub>Enterprise multi-agent sales enablement platform.</sub>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Benjamindaoson/reward-modeling-lab"><img src="./assets/cards-v2/reward-modeling-lab.svg" width="100%" alt="Reward Modeling Lab" /></a>
+      <br/><b><a href="https://github.com/Benjamindaoson/reward-modeling-lab">Reward Modeling Lab</a></b>
+      <img src="https://img.shields.io/badge/FLAGSHIP-7C3AED?style=flat-square" alt="Flagship" />
+      <br/><sub>8B reward-model post-training with QLoRA, preference learning and audit-driven evaluation.</sub>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Benjamindaoson/FitGround"><img src="./assets/cards-v2/fitground.svg" width="100%" alt="FitGround" /></a>
+      <br/><b><a href="https://github.com/Benjamindaoson/FitGround">FitGround</a></b>
+      <img src="https://img.shields.io/badge/FLAGSHIP-0284C7?style=flat-square" alt="Flagship" />
+      <br/><sub>Physics-grounded decision engine linking simulation evidence to explicit design actions.</sub>
+    </td>
+  </tr>
 
-### [01 · Reward Modeling Lab](https://github.com/Benjamindaoson/reward-modeling-lab) `FLAGSHIP`
+  <tr>
+    <td valign="top">
+      <a href="https://github.com/Benjamindaoson/enterprise-data-agent"><img src="./assets/cards-v2/enterprise-data-agent.svg" width="100%" alt="Enterprise Data Agent" /></a>
+      <br/><b><a href="https://github.com/Benjamindaoson/enterprise-data-agent">Enterprise Data Agent</a></b>
+      <img src="https://img.shields.io/badge/FLAGSHIP-059669?style=flat-square" alt="Flagship" />
+      <br/><sub>Long-horizon governed analytics with planning, persistent state, evidence and recovery.</sub>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Benjamindaoson/RewardLens"><img src="./assets/cards-v2/rewardlens.svg" width="100%" alt="RewardLens" /></a>
+      <br/><b><a href="https://github.com/Benjamindaoson/RewardLens">RewardLens</a></b>
+      <img src="https://img.shields.io/badge/RESEARCH-8B5CF6?style=flat-square" alt="Research" />
+      <br/><sub>Controlled behavioral auditing for multimodal judges and reward models.</sub>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Benjamindaoson/smolvla-libero-plus-micro-pilot"><img src="./assets/cards-v2/smolvla.svg" width="100%" alt="SmolVLA Micro-Pilot" /></a>
+      <br/><b><a href="https://github.com/Benjamindaoson/smolvla-libero-plus-micro-pilot">SmolVLA Micro-Pilot</a></b>
+      <img src="https://img.shields.io/badge/RESEARCH-0284C7?style=flat-square" alt="Research" />
+      <br/><sub>VLA micro-pilot on LIBERO-Plus for initial-state OOD and controlled fine-tuning experiments.</sub>
+    </td>
+  </tr>
 
-**8B Reward Model · 50.42% → 91.35%**
+  <tr>
+    <td valign="top">
+      <a href="https://github.com/Benjamindaoson/haole"><img src="./assets/cards-v2/haole.svg" width="100%" alt="Haole" /></a>
+      <br/><b><a href="https://github.com/Benjamindaoson/haole">Haole</a></b>
+      <img src="https://img.shields.io/badge/FLAGSHIP-059669?style=flat-square" alt="Flagship" />
+      <br/><sub>Durable multi-agent runtime and workspace with MCP, HITL, Redis Streams and replay.</sub>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Benjamindaoson/multimodal-chart-gspo"><img src="./assets/cards-v2/multimodal-chart-gspo.svg" width="100%" alt="Multimodal Chart GSPO" /></a>
+      <br/><b><a href="https://github.com/Benjamindaoson/multimodal-chart-gspo">Multimodal Chart GSPO</a></b>
+      <img src="https://img.shields.io/badge/ACTIVE_RESEARCH-7C3AED?style=flat-square" alt="Active Research" />
+      <br/><sub>Multimodal reasoning post-training with GSPO and task-aware reward design.</sub>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Benjamindaoson/Embodied-DataOps"><img src="./assets/cards-v2/embodied-dataops.svg" width="100%" alt="Embodied-DataOps" /></a>
+      <br/><b><a href="https://github.com/Benjamindaoson/Embodied-DataOps">Embodied-DataOps</a></b>
+      <img src="https://img.shields.io/badge/EMERGING-0891B2?style=flat-square" alt="Emerging" />
+      <br/><sub>Early-stage embodied-data infrastructure direction; repository currently under construction.</sub>
+    </td>
+  </tr>
 
-Real single-GPU post-training with 4-bit QLoRA, followed by controlled shortcut and ranking audits rather than stopping at headline accuracy.
-
-`QLoRA` `Preference Learning` `Reward Modeling` `Ranking Eval`
-
----
-
-### 02 · Policy Optimization `ACTIVE RESEARCH`
-
-**SFT → DPO / GRPO → Policy Evaluation**
-
-Policy-side post-training with reward design, optimization and reward-hacking diagnostics.
-
----
-
-### 03 · Verifier & Multimodal RL `ACTIVE RESEARCH`
-
-**Verifier → Reasoning → Multimodal Reward**
-
-Process / outcome verification, hard negatives and richer learning signals beyond a single scalar reward.
-
-<p align="center">
-  <img src="https://img.shields.io/badge/SFT%20%2F%20LoRA-4F46E5?style=flat-square" />
-  <img src="https://img.shields.io/badge/Reward%20Modeling-7C3AED?style=flat-square" />
-  <img src="https://img.shields.io/badge/DPO%20%2F%20GRPO-8B5CF6?style=flat-square" />
-  <img src="https://img.shields.io/badge/Verifier-A855F7?style=flat-square" />
-</p>
-
-</td>
-<td width="50%" valign="top">
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AGENT-SYSTEMS-059669?style=for-the-badge" />
-  <br/>
-  <sub><b>BUILD · ORCHESTRATE · VERIFY</b></sub>
-</p>
-
-### [01 · SalesBoost](https://github.com/Benjamindaoson/SalesBoost) `FLAGSHIP`
-
-**Enterprise Multi-Agent Application**
-
-Production-shaped sales intelligence platform spanning orchestration, Hybrid RAG, memory, evaluation and observability across real business workflows.
-
-`LangGraph` `Hybrid RAG` `Memory` `Evaluation` `Observability`
-
----
-
-### [02 · Haole](https://github.com/Benjamindaoson/haole)
-
-**Durable Agent Runtime & Workspace**
-
-Explicit task contracts, MCP, skills, HITL, Redis Streams and replayable event delivery for long-lived agent execution.
-
----
-
-### [03 · Enterprise Data Agent](https://github.com/Benjamindaoson/enterprise-data-agent)
-
-**Evidence-Grounded Data Intelligence Agent**
-
-Business question → governed execution → observations → claims → evidence → validated report.
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Orchestration-047857?style=flat-square" />
-  <img src="https://img.shields.io/badge/MCP%20%2F%20Tools-059669?style=flat-square" />
-  <img src="https://img.shields.io/badge/Memory-10B981?style=flat-square" />
-  <img src="https://img.shields.io/badge/Evaluation-34D399?style=flat-square" />
-</p>
-
-</td>
-</tr>
+  <tr>
+    <td valign="top">
+      <b>Other Projects</b><br/>
+      <sub>
+        <a href="https://github.com/Benjamindaoson/agentic-delivery-os">Agentic Delivery OS</a> ·
+        <a href="https://github.com/Benjamindaoson/api-test-platform">API Test Platform</a> ·
+        <a href="https://github.com/Benjamindaoson/SmartOrderingAgent">SmartOrderingAgent</a> ·
+        <a href="https://github.com/Benjamindaoson/Agentic_Content_Optimizer">Agentic Content Optimizer</a> ·
+        <a href="https://github.com/Benjamindaoson/trajectory-level-alignment">Trajectory-Level Alignment</a> ·
+        <a href="https://github.com/Benjamindaoson/StateLegacy-E0">StateLegacy</a>
+      </sub>
+    </td>
+    <td valign="top">
+      <b>Other Projects</b><br/>
+      <sub>
+        <a href="https://github.com/Benjamindaoson/text2sql-agentic-rl">Text2SQL Agentic RL</a> ·
+        <a href="https://github.com/Benjamindaoson/financial-reward-agentic-rl">Financial Reward Agentic RL</a> ·
+        <a href="https://github.com/Benjamindaoson/chinese-news-classification">Chinese News Classification</a> ·
+        <a href="https://github.com/Benjamindaoson/project-collection-repeat-transformer">Decoder-only LLM Course</a>
+      </sub>
+    </td>
+    <td valign="top">
+      <b>Current Direction</b><br/>
+      <sub>VLA / robot foundation models · simulation · embodied evaluation · robot data infrastructure.</sub>
+    </td>
+  </tr>
 </table>
 
 <p align="center">
-  <b>MODEL SIDE</b> · data → adaptation → preference → reward → policy → verification
-  <br/>
-  <b>SYSTEM SIDE</b> · intent → planning → tools → state → execution → evidence → recovery
-</p>
-
----
-
-### Research
-
-**Learning from failure across models, agents and embodied systems.**  
-Error-resolution learning · failure attribution & recovery · VLA failure learning
-
-<details>
-<summary><b>More Engineering</b></summary>
-<br/>
-
-| Project | Focus |
-|---|---|
-| [Huisen AI](https://github.com/Benjamindaoson/huisen-ai-adaptive-algorithm-coach) | Adaptive learning agent · code execution · transfer verification |
-| [Financial Asset QA](https://github.com/Benjamindaoson/Financial_Asset_QA_System) | Deterministic financial AI · numerical guardrails · provenance |
-| [AI Agent Engineering Lab](https://github.com/Benjamindaoson/ai-agent-engineering-lab) | ReAct · Deep Research · MCP · A2A · agent patterns |
-
-</details>
-
-<details>
-<summary><b>Technical Coverage</b></summary>
-<br/>
-
-| LLM | Agent | Systems |
-|---|---|---|
-| LoRA / QLoRA · RM · DPO / GRPO · Verifier | LangGraph · MCP · Memory · HITL · RAG · Recovery | Python · FastAPI · PostgreSQL · Redis · Qdrant · Docker · React |
-
-</details>
-
-<p align="center">
-  <sub><b>Build → Run → Measure → Attack → Diagnose → Improve</b></sub>
+  <sub><b>Build useful AI systems · run real experiments · contribute to open knowledge.</b></sub>
 </p>
