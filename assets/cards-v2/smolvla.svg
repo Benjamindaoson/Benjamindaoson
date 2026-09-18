@@ -1,0 +1,20 @@
+<svg width="640" height="240" viewBox="0 0 640 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="640" y2="240" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#075985"/><stop offset="1" stop-color="#08111F"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(555 45) rotate(135) scale(230 180)">
+    <stop stop-color="#0EA5E9" stop-opacity=".42"/><stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="1" y="1" width="638" height="238" rx="22" fill="url(#bg)" stroke="#0EA5E9" stroke-opacity=".32" stroke-width="2"/>
+<rect x="1" y="1" width="638" height="238" rx="22" fill="url(#glow)"/>
+<circle cx="535" cy="112" r="56" stroke="#0EA5E9" stroke-opacity=".36" stroke-width="2"/>
+<circle cx="535" cy="112" r="31" fill="#0EA5E9" fill-opacity=".12" stroke="#0EA5E9" stroke-opacity=".7" stroke-width="2"/>
+<path d="M506 112H564M535 83V141" stroke="#0EA5E9" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+<text x="42" y="56" fill="#0EA5E9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="2.1">PHYSICAL AI</text>
+<text x="42" y="119" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="800">SmolVLA Micro-Pilot</text>
+<text x="42" y="157" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="500">VLA + LIBERO-Plus Research</text>
+<rect x="42" y="186" width="168" height="28" rx="14" fill="#0EA5E9" fill-opacity=".12" stroke="#0EA5E9" stroke-opacity=".45"/>
+<text x="61" y="205" fill="#E2E8F0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">PROJECT VISUAL SLOT</text>
+</svg>
