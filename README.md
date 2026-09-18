@@ -15,110 +15,160 @@
 </p>
 
 <table>
-  <tr>
-    <td width="33%" valign="top">
-      <h2>🤖 Agent Harness</h2>
-      <sub><b>Agent Systems Engineering</b><br/>Build reliable agents around models: runtime, state, tools, orchestration, recovery and evaluation.</sub>
-    </td>
-    <td width="33%" valign="top">
-      <h2>🧠 LLM &amp; Model Systems</h2>
-      <sub><b>Post-training · Reward · Multimodal</b><br/>Train, align and evaluate model behavior with preference learning, RL and controlled evaluation.</sub>
-    </td>
-    <td width="33%" valign="top">
-      <h2>🦾 Physical AI</h2>
-      <sub><b>Embodied Intelligence</b><br/>Connect models to the physical world through VLA, simulation, embodied data and decision systems.</sub>
-    </td>
-  </tr>
+<tr>
+<td width="33%" valign="top">
 
-  <tr>
-    <td valign="top">
-      <a href="https://github.com/Benjamindaoson/SalesBoost"><img src="./assets/cards-v2/salesboost.svg" width="100%" alt="SalesBoost" /></a>
-      <br/><b><a href="https://github.com/Benjamindaoson/SalesBoost">SalesBoost</a></b>
-      <img src="https://img.shields.io/badge/FLAGSHIP-059669?style=flat-square" alt="Flagship" />
-      <br/><sub>Enterprise multi-agent sales enablement platform.</sub>
-    </td>
-    <td valign="top">
-      <a href="https://github.com/Benjamindaoson/reward-modeling-lab"><img src="./assets/cards-v2/reward-modeling-lab.svg" width="100%" alt="Reward Modeling Lab" /></a>
-      <br/><b><a href="https://github.com/Benjamindaoson/reward-modeling-lab">Reward Modeling Lab</a></b>
-      <img src="https://img.shields.io/badge/FLAGSHIP-7C3AED?style=flat-square" alt="Flagship" />
-      <br/><sub>8B reward-model post-training with QLoRA, preference learning and audit-driven evaluation.</sub>
-    </td>
-    <td valign="top">
-      <a href="https://github.com/Benjamindaoson/FitGround"><img src="./assets/cards-v2/fitground.svg" width="100%" alt="FitGround" /></a>
-      <br/><b><a href="https://github.com/Benjamindaoson/FitGround">FitGround</a></b>
-      <img src="https://img.shields.io/badge/FLAGSHIP-0284C7?style=flat-square" alt="Flagship" />
-      <br/><sub>Physics-grounded decision engine linking simulation evidence to explicit design actions.</sub>
-    </td>
-  </tr>
+## 🤖 Agent Harness
+<sub><b>Agent Systems Engineering</b><br/>Runtime · state · tools · orchestration · recovery · evaluation</sub>
 
-  <tr>
-    <td valign="top">
-      <a href="https://github.com/Benjamindaoson/enterprise-data-agent"><img src="./assets/cards-v2/enterprise-data-agent.svg" width="100%" alt="Enterprise Data Agent" /></a>
-      <br/><b><a href="https://github.com/Benjamindaoson/enterprise-data-agent">Enterprise Data Agent</a></b>
-      <img src="https://img.shields.io/badge/FLAGSHIP-059669?style=flat-square" alt="Flagship" />
-      <br/><sub>Long-horizon governed analytics with planning, persistent state, evidence and recovery.</sub>
-    </td>
-    <td valign="top">
-      <a href="https://github.com/Benjamindaoson/RewardLens"><img src="./assets/cards-v2/rewardlens.svg" width="100%" alt="RewardLens" /></a>
-      <br/><b><a href="https://github.com/Benjamindaoson/RewardLens">RewardLens</a></b>
-      <img src="https://img.shields.io/badge/RESEARCH-8B5CF6?style=flat-square" alt="Research" />
-      <br/><sub>Controlled behavioral auditing for multimodal judges and reward models.</sub>
-    </td>
-    <td valign="top">
-      <a href="https://github.com/Benjamindaoson/smolvla-libero-plus-micro-pilot"><img src="./assets/cards-v2/smolvla.svg" width="100%" alt="SmolVLA Micro-Pilot" /></a>
-      <br/><b><a href="https://github.com/Benjamindaoson/smolvla-libero-plus-micro-pilot">SmolVLA Micro-Pilot</a></b>
-      <img src="https://img.shields.io/badge/RESEARCH-0284C7?style=flat-square" alt="Research" />
-      <br/><sub>VLA micro-pilot on LIBERO-Plus for initial-state OOD and controlled fine-tuning experiments.</sub>
-    </td>
-  </tr>
+</td>
+<td width="33%" valign="top">
 
-  <tr>
-    <td valign="top">
-      <a href="https://github.com/Benjamindaoson/haole"><img src="./assets/cards-v2/haole.svg" width="100%" alt="Haole" /></a>
-      <br/><b><a href="https://github.com/Benjamindaoson/haole">Haole</a></b>
-      <img src="https://img.shields.io/badge/FLAGSHIP-059669?style=flat-square" alt="Flagship" />
-      <br/><sub>Durable multi-agent runtime and workspace with MCP, HITL, Redis Streams and replay.</sub>
-    </td>
-    <td valign="top">
-      <a href="https://github.com/Benjamindaoson/multimodal-chart-gspo"><img src="./assets/cards-v2/multimodal-chart-gspo.svg" width="100%" alt="Multimodal Chart GSPO" /></a>
-      <br/><b><a href="https://github.com/Benjamindaoson/multimodal-chart-gspo">Multimodal Chart GSPO</a></b>
-      <img src="https://img.shields.io/badge/ACTIVE_RESEARCH-7C3AED?style=flat-square" alt="Active Research" />
-      <br/><sub>Multimodal reasoning post-training with GSPO and task-aware reward design.</sub>
-    </td>
-    <td valign="top">
-      <a href="https://github.com/Benjamindaoson/Embodied-DataOps"><img src="./assets/cards-v2/embodied-dataops.svg" width="100%" alt="Embodied-DataOps" /></a>
-      <br/><b><a href="https://github.com/Benjamindaoson/Embodied-DataOps">Embodied-DataOps</a></b>
-      <img src="https://img.shields.io/badge/EMERGING-0891B2?style=flat-square" alt="Emerging" />
-      <br/><sub>Early-stage embodied-data infrastructure direction; repository currently under construction.</sub>
-    </td>
-  </tr>
+## 🧠 LLM & Model Systems
+<sub><b>Training · Post-training · Evaluation</b><br/>Fine-tuning · reward models · preference learning · multimodal evaluation</sub>
 
-  <tr>
-    <td valign="top">
-      <b>Other Projects</b><br/>
-      <sub>
-        <a href="https://github.com/Benjamindaoson/agentic-delivery-os">Agentic Delivery OS</a> ·
-        <a href="https://github.com/Benjamindaoson/api-test-platform">API Test Platform</a> ·
-        <a href="https://github.com/Benjamindaoson/SmartOrderingAgent">SmartOrderingAgent</a> ·
-        <a href="https://github.com/Benjamindaoson/Agentic_Content_Optimizer">Agentic Content Optimizer</a> ·
-        <a href="https://github.com/Benjamindaoson/trajectory-level-alignment">Trajectory-Level Alignment</a> ·
-        <a href="https://github.com/Benjamindaoson/StateLegacy-E0">StateLegacy</a>
-      </sub>
-    </td>
-    <td valign="top">
-      <b>Other Projects</b><br/>
-      <sub>
-        <a href="https://github.com/Benjamindaoson/text2sql-agentic-rl">Text2SQL Agentic RL</a> ·
-        <a href="https://github.com/Benjamindaoson/financial-reward-agentic-rl">Financial Reward Agentic RL</a> ·
-        <a href="https://github.com/Benjamindaoson/chinese-news-classification">Chinese News Classification</a> ·
-        <a href="https://github.com/Benjamindaoson/project-collection-repeat-transformer">Decoder-only LLM Course</a>
-      </sub>
-    </td>
-    <td valign="top">
-      <b>Current Direction</b><br/>
-      <sub>VLA / robot foundation models · simulation · embodied evaluation · robot data infrastructure.</sub>
-    </td>
-  </tr>
+</td>
+<td width="33%" valign="top">
+
+## 🦾 Physical AI
+<sub><b>Embodied Intelligence</b><br/>VLA · simulation · physical evidence · embodied data</sub>
+
+</td>
+</tr>
+
+<tr>
+<td valign="top">
+
+<a href="https://github.com/Benjamindaoson/SalesBoost"><img src="./assets/cards-v3/salesboost-architecture.svg" width="100%" alt="SalesBoost architecture" /></a>
+
+### [SalesBoost](https://github.com/Benjamindaoson/SalesBoost) <code>FLAGSHIP</code>
+**Enterprise Multi-Agent Platform**
+
+Production-shaped sales enablement system spanning orchestration, Hybrid RAG, memory, evaluation and observability.
+
+</td>
+<td valign="top">
+
+<a href="https://github.com/Benjamindaoson/reward-modeling-lab"><img src="https://raw.githubusercontent.com/Benjamindaoson/reward-modeling-lab/main/docs/results/figures/research_story.svg" width="100%" alt="Reward Modeling Lab research story" /></a>
+
+### [Reward Modeling Lab](https://github.com/Benjamindaoson/reward-modeling-lab) <code>FLAGSHIP</code>
+**8B Reward Model Post-training**
+
+Single-GPU QLoRA post-training followed by shortcut, ranking and robustness audits rather than headline accuracy alone.
+
+</td>
+<td valign="top">
+
+<a href="https://github.com/Benjamindaoson/FitGround"><img src="https://raw.githubusercontent.com/Benjamindaoson/FitGround/main/reports/figures/01_system_architecture_en.png" width="100%" alt="FitGround system architecture" /></a>
+
+### [FitGround](https://github.com/Benjamindaoson/FitGround) <code>FLAGSHIP</code>
+**Physics-Grounded Decision Engine**
+
+Executable garment parameters → measured geometry → simulation evidence → explicit decision / abstention.
+
+</td>
+</tr>
+
+<tr>
+<td valign="top">
+
+<a href="https://github.com/Benjamindaoson/enterprise-data-agent"><img src="./assets/cards-v3/enterprise-data-agent-architecture.svg" width="100%" alt="Enterprise Data Agent architecture" /></a>
+
+### [Enterprise Data Agent](https://github.com/Benjamindaoson/enterprise-data-agent) <code>FLAGSHIP</code>
+**Long-Horizon Business Analytics Agent**
+
+Persistent task state, semantic contracts, bounded analytical operators and claim → evidence → verification.
+
+</td>
+<td valign="top">
+
+<a href="https://github.com/Benjamindaoson/RewardLens"><img src="https://raw.githubusercontent.com/Benjamindaoson/RewardLens/main/results/paper_analysis/four_model/figures/figure2_dependency_fingerprint.png" width="100%" alt="RewardLens dependency fingerprint" /></a>
+
+### [RewardLens](https://github.com/Benjamindaoson/RewardLens) <code>RESEARCH</code>
+**Multimodal Judge / Reward-Model Evaluation**
+
+Controlled visual interventions expose behavioral differences that static preference accuracy can hide.
+
+</td>
+<td valign="top">
+
+<img src="./assets/cards-v3/smolvla-protocol.svg" width="100%" alt="SmolVLA LIBERO-Plus micro-pilot protocol" />
+
+### SmolVLA + LIBERO-Plus Micro-Pilot <code>PRIVATE RESEARCH</code>
+**VLA / Robotics Micro-Pilot**
+
+Controlled initial-state OOD protocol around <code>lerobot/smolvla_libero</code>. The card shows protocol structure only; no unverified GPU result is claimed.
+
+</td>
+</tr>
+
+<tr>
+<td valign="top">
+
+<a href="https://github.com/Benjamindaoson/haole"><img src="./assets/cards-v3/haole-architecture.svg" width="100%" alt="Haole architecture" /></a>
+
+### [Haole](https://github.com/Benjamindaoson/haole) <code>FLAGSHIP</code>
+**Durable Multi-Agent Runtime & Workspace**
+
+LangGraph orchestration, Redis Streams task bus, MCP tools, HITL and replayable cross-process events.
+
+</td>
+<td valign="top">
+
+<a href="https://github.com/Benjamindaoson/chinese-news-classification"><img src="./assets/cards-v3/chinese-news-model-results.svg" width="100%" alt="Chinese news classification model compression results" /></a>
+
+### [Chinese News Classification](https://github.com/Benjamindaoson/chinese-news-classification) <code>MODEL SYSTEMS</code>
+**Fine-tuning & Model Compression**
+
+Reproducible text-model pipeline covering BERT fine-tuning, INT8 quantization, pruning and knowledge distillation.
+
+</td>
+<td valign="top">
+
+<a href="https://github.com/Benjamindaoson/Embodied-DataOps"><img src="./assets/cards-v3/embodied-dataops-status.svg" width="100%" alt="Embodied-DataOps current status" /></a>
+
+### [Embodied-DataOps](https://github.com/Benjamindaoson/Embodied-DataOps) <code>EMERGING</code>
+**Embodied Data Infrastructure**
+
+Public research program under construction. It is intentionally not presented as a completed implementation or validated result.
+
+</td>
+</tr>
+
+<tr>
+<td valign="top">
+
+**Other Projects**
+
+<sub>
+<a href="https://github.com/Benjamindaoson/SmartOrderingAgent">SmartOrderingAgent</a> ·
+<a href="https://github.com/Benjamindaoson/api-test-platform">API Test Platform</a> ·
+<a href="https://github.com/Benjamindaoson/Financial_Asset_QA_System">Financial Asset QA</a> ·
+<a href="https://github.com/Benjamindaoson/ai-agent-engineering-lab">AI Agent Engineering Lab</a> ·
+Agentic Delivery OS · Agentic Content Optimizer
+</sub>
+
+</td>
+<td valign="top">
+
+**Other Projects**
+
+<sub>
+Text2SQL Agentic RL · Financial Reward Agentic RL · Multimodal Chart GSPO ·
+<a href="https://github.com/Benjamindaoson/AIEduRAG">AIEduRAG</a>
+</sub>
+
+</td>
+<td valign="top">
+
+**Current Direction**
+
+<sub>
+Robot foundation models · VLA evaluation · simulation · embodied data systems
+</sub>
+
+</td>
+</tr>
 </table>
 
 <p align="center">
