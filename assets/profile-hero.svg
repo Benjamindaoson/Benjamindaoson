@@ -5,18 +5,18 @@
       <stop offset="0.52" stop-color="#121B32"/>
       <stop offset="1" stop-color="#081625"/>
     </linearGradient>
-    <linearGradient id="title" x1="70" y1="0" x2="835" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#A78BFA"/>
-      <stop offset="0.5" stop-color="#60A5FA"/>
-      <stop offset="1" stop-color="#34D399"/>
+    <linearGradient id="title" x1="70" y1="0" x2="920" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34D399"/>
+      <stop offset="0.48" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#38BDF8"/>
     </linearGradient>
-    <radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1110 30) rotate(145) scale(260 180)">
+    <radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1110 25) rotate(145) scale(280 190)">
       <stop stop-color="#7C3AED" stop-opacity="0.30"/>
       <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="g2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1170 210) rotate(-145) scale(290 170)">
-      <stop stop-color="#10B981" stop-opacity="0.25"/>
-      <stop offset="1" stop-color="#10B981" stop-opacity="0"/>
+    <radialGradient id="g2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1180 205) rotate(-145) scale(300 180)">
+      <stop stop-color="#0EA5E9" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
@@ -24,26 +24,29 @@
   <rect x="1" y="1" width="1278" height="218" rx="24" fill="url(#g1)"/>
   <rect x="1" y="1" width="1278" height="218" rx="24" fill="url(#g2)"/>
 
-  <text x="70" y="50" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2.8">BENJAMIN DAOSON · AI ENGINEERING</text>
-  <text x="70" y="105" fill="url(#title)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="46" font-weight="800">LLM Post-training × Agent Systems</text>
-  <text x="70" y="145" fill="#E2E8F0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="500">From model training and alignment to production-grade agent systems.</text>
+  <text x="70" y="48" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2.8">BENJAMIN DAOSON · AI ENGINEERING</text>
+  <text x="70" y="101" fill="url(#title)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="39" font-weight="800">Agent Harness × LLM &amp; Model Systems × Physical AI</text>
+  <text x="70" y="139" fill="#E2E8F0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="500">From production-grade agents to model post-training and embodied intelligence.</text>
 
-  <rect x="70" y="169" width="278" height="30" rx="15" fill="#8B5CF6" fill-opacity="0.14" stroke="#8B5CF6" stroke-opacity="0.42"/>
-  <text x="89" y="189" fill="#C4B5FD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">MODEL SIDE · TRAIN · ALIGN · EVALUATE</text>
+  <rect x="70" y="166" width="180" height="30" rx="15" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.45"/>
+  <text x="91" y="186" fill="#A7F3D0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">AGENT HARNESS</text>
 
-  <rect x="360" y="169" width="310" height="30" rx="15" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.42"/>
-  <text x="379" y="189" fill="#A7F3D0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">SYSTEM SIDE · BUILD · ORCHESTRATE · VERIFY</text>
+  <rect x="264" y="166" width="224" height="30" rx="15" fill="#8B5CF6" fill-opacity="0.14" stroke="#8B5CF6" stroke-opacity="0.45"/>
+  <text x="285" y="186" fill="#DDD6FE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">LLM / MODEL SYSTEMS</text>
 
-  <g transform="translate(955 63)">
-    <circle cx="0" cy="45" r="7" fill="#A78BFA"/>
-    <circle cx="78" cy="45" r="7" fill="#60A5FA"/>
-    <circle cx="156" cy="45" r="7" fill="#34D399"/>
+  <rect x="502" y="166" width="170" height="30" rx="15" fill="#0EA5E9" fill-opacity="0.12" stroke="#0EA5E9" stroke-opacity="0.45"/>
+  <text x="525" y="186" fill="#BAE6FD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">PHYSICAL AI</text>
+
+  <g transform="translate(985 63)">
+    <circle cx="0" cy="45" r="7" fill="#34D399"/>
+    <circle cx="78" cy="45" r="7" fill="#A78BFA"/>
+    <circle cx="156" cy="45" r="7" fill="#38BDF8"/>
     <path d="M10 45H68" stroke="#64748B" stroke-width="2"/>
     <path d="M88 45H146" stroke="#64748B" stroke-width="2"/>
     <path d="M62 39L68 45L62 51" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     <path d="M140 39L146 45L140 51" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="-22" y="76" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">MODEL</text>
-    <text x="59" y="76" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">AGENT</text>
-    <text x="134" y="76" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">SYSTEM</text>
+    <text x="-24" y="77" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="700">AGENT</text>
+    <text x="54" y="77" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="700">MODEL</text>
+    <text x="133" y="77" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="700">WORLD</text>
   </g>
 </svg>
