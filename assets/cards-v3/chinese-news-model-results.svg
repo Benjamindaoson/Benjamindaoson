@@ -1,0 +1,13 @@
+<svg width="760" height="420" viewBox="0 0 760 420" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="760" y2="420"><stop stop-color="#24114A"/><stop offset="1" stop-color="#0B1220"/></linearGradient></defs>
+<rect width="760" height="420" rx="24" fill="url(#bg)"/>
+<text x="34" y="42" fill="#C4B5FD" font-family="Inter,Segoe UI,Arial" font-size="19" font-weight="700">Chinese News Classification · model compression results</text>
+<text x="34" y="68" fill="#94A3B8" font-family="Inter,Segoe UI,Arial" font-size="13">Historical validated 10-class line · macro-F1 reported in repository README</text>
+<g font-family="Inter,Segoe UI,Arial" font-size="14">
+<text x="42" y="124" fill="#EDE9FE">Original BERT</text><rect x="190" y="105" width="500" height="24" rx="6" fill="#312E81"/><rect x="190" y="105" width="471" height="24" rx="6" fill="#8B5CF6"/><text x="671" y="123" fill="#F5F3FF">0.9416</text>
+<text x="42" y="186" fill="#EDE9FE">INT8 dynamic</text><rect x="190" y="167" width="500" height="24" rx="6" fill="#312E81"/><rect x="190" y="167" width="465" height="24" rx="6" fill="#A78BFA"/><text x="665" y="185" fill="#F5F3FF">0.9296</text>
+<text x="42" y="248" fill="#EDE9FE">L1 pruning 60%</text><rect x="190" y="229" width="500" height="24" rx="6" fill="#312E81"/><rect x="190" y="229" width="470" height="24" rx="6" fill="#7C3AED"/><text x="670" y="247" fill="#F5F3FF">0.9408</text>
+<text x="42" y="310" fill="#EDE9FE">2-layer distill.</text><rect x="190" y="291" width="500" height="24" rx="6" fill="#312E81"/><rect x="190" y="291" width="448" height="24" rx="6" fill="#6D28D9"/><text x="648" y="309" fill="#F5F3FF">0.8967</text>
+</g>
+<text x="42" y="367" fill="#A78BFA" font-family="Inter,Segoe UI,Arial" font-size="12">Fine-tuning · quantization · pruning · knowledge distillation</text>
+</svg>
