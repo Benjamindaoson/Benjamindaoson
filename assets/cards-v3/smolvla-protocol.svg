@@ -1,0 +1,15 @@
+<svg width="760" height="420" viewBox="0 0 760 420" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="760" y2="420"><stop stop-color="#082F49"/><stop offset="1" stop-color="#0B1220"/></linearGradient></defs>
+<rect width="760" height="420" rx="24" fill="url(#bg)"/>
+<text x="34" y="42" fill="#7DD3FC" font-family="Inter,Segoe UI,Arial" font-size="19" font-weight="700">SmolVLA + LIBERO-Plus · micro-pilot protocol</text>
+<text x="34" y="68" fill="#94A3B8" font-family="Inter,Segoe UI,Arial" font-size="13">Private research repository · protocol view only · no unverified GPU result shown</text>
+<g font-family="Inter,Segoe UI,Arial" text-anchor="middle">
+<rect x="34" y="120" width="160" height="72" rx="10" fill="#0C4A6E" stroke="#38BDF8"/><text x="114" y="146" fill="#F0F9FF" font-size="14">Inputs</text><text x="114" y="166" fill="#BAE6FD" font-size="12">image · instruction</text><text x="114" y="183" fill="#BAE6FD" font-size="12">robot state</text>
+<rect x="225" y="120" width="180" height="72" rx="10" fill="#075985" stroke="#38BDF8"/><text x="315" y="148" fill="#F0F9FF" font-size="14">SmolVLA</text><text x="315" y="170" fill="#BAE6FD" font-size="12">lerobot/smolvla_libero</text>
+<rect x="436" y="120" width="130" height="72" rx="10" fill="#0C4A6E" stroke="#38BDF8"/><text x="501" y="148" fill="#F0F9FF" font-size="14">Action</text><text x="501" y="170" fill="#BAE6FD" font-size="12">policy output</text>
+<rect x="597" y="120" width="129" height="72" rx="10" fill="#075985" stroke="#38BDF8"/><text x="661" y="146" fill="#F0F9FF" font-size="14">LIBERO-Plus</text><text x="661" y="166" fill="#BAE6FD" font-size="12">+ LIBERO-Object</text>
+<rect x="155" y="274" width="200" height="66" rx="10" fill="#0C4A6E" stroke="#38BDF8"/><text x="255" y="300" fill="#F0F9FF" font-size="14">OOD condition</text><text x="255" y="322" fill="#BAE6FD" font-size="12">Robot initial-state shift</text>
+<rect x="405" y="274" width="200" height="66" rx="10" fill="#075985" stroke="#38BDF8"/><text x="505" y="300" fill="#F0F9FF" font-size="14">Carrier gates</text><text x="505" y="322" fill="#BAE6FD" font-size="12">M0 → M1 → M2 → M3</text>
+</g>
+<g stroke="#64748B" stroke-width="2" fill="none"><path d="M194 156H225"/><path d="M405 156H436"/><path d="M566 156H597"/><path d="M661 192V230H255V274"/><path d="M355 307H405"/></g>
+</svg>
