@@ -1,0 +1,17 @@
+<svg width="760" height="420" viewBox="0 0 760 420" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="760" y2="420"><stop stop-color="#06231F"/><stop offset="1" stop-color="#0B1220"/></linearGradient></defs>
+<rect width="760" height="420" rx="24" fill="url(#bg)"/>
+<text x="34" y="42" fill="#5EEAD4" font-family="Inter,Segoe UI,Arial" font-size="19" font-weight="700">Enterprise Data Agent · long-horizon loop</text>
+<text x="34" y="68" fill="#94A3B8" font-family="Inter,Segoe UI,Arial" font-size="13">Model chooses the next analysis step; deterministic tools execute governed operations.</text>
+<g font-family="Inter,Segoe UI,Arial" font-size="13" text-anchor="middle">
+<rect x="34" y="104" width="150" height="48" rx="9" fill="#134E4A" stroke="#2DD4BF"/><text x="109" y="133" fill="#F0FDFA">Business Question</text>
+<rect x="220" y="104" width="150" height="48" rx="9" fill="#134E4A" stroke="#2DD4BF"/><text x="295" y="124" fill="#F0FDFA">Versioned</text><text x="295" y="141" fill="#CCFBF1">Semantic Layer</text>
+<rect x="406" y="104" width="150" height="48" rx="9" fill="#134E4A" stroke="#2DD4BF"/><text x="481" y="124" fill="#F0FDFA">Supervisor</text><text x="481" y="141" fill="#CCFBF1">Plan / Replan</text>
+<rect x="592" y="104" width="134" height="48" rx="9" fill="#134E4A" stroke="#2DD4BF"/><text x="659" y="124" fill="#F0FDFA">Shared</text><text x="659" y="141" fill="#CCFBF1">Task State</text>
+<rect x="78" y="226" width="170" height="52" rx="9" fill="#0F2F2B" stroke="#14B8A6"/><text x="163" y="246" fill="#ECFEFF">Typed Analytical</text><text x="163" y="264" fill="#99F6E4">Operators</text>
+<rect x="295" y="226" width="170" height="52" rx="9" fill="#0F2F2B" stroke="#14B8A6"/><text x="380" y="246" fill="#ECFEFF">Deterministic</text><text x="380" y="264" fill="#99F6E4">Data Tools</text>
+<rect x="512" y="226" width="170" height="52" rx="9" fill="#0F2F2B" stroke="#14B8A6"/><text x="597" y="246" fill="#ECFEFF">Observation +</text><text x="597" y="264" fill="#99F6E4">Hypothesis</text>
+<rect x="212" y="326" width="336" height="54" rx="10" fill="#134E4A" stroke="#5EEAD4"/><text x="380" y="348" fill="#F0FDFA">Claim → Evidence → Verification</text><text x="380" y="366" fill="#99F6E4">Accept · Clarify · Replan · Finish</text>
+</g>
+<g stroke="#64748B" stroke-width="2" fill="none"><path d="M184 128H220"/><path d="M370 128H406"/><path d="M556 128H592"/><path d="M659 152V190H163V226"/><path d="M248 252H295"/><path d="M465 252H512"/><path d="M597 278V304H380V326"/></g>
+</svg>
