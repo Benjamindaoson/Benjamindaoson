@@ -1,19 +1,4 @@
-<p align="right">
-  <a href="./README.md">
-    <img src="https://img.shields.io/badge/English-1F6FEB?style=for-the-badge" alt="English" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="./assets/profile-hero.svg" alt="Benjamin Daoson — Agent Harness × LLM & Model Systems × Physical AI" width="100%" />
-</p>
-
-<p align="center">
-  <a href="https://benjamindaoson.github.io/daoson_website/">个人主页</a> ·
-  <a href="https://benjamindaoson.github.io/daoson_website/knowledge/">知识库</a> ·
-  <a href="https://github.com/Benjamindaoson?tab=repositories">全部仓库</a>
-</p>
-
+<p align="right"><a href="./README.md"><img src="https://img.shields.io/badge/English-1F6FEB?style=flat-square" alt="English" /></a></p>
 <table>
 <tr>
 <td width="33%" valign="top">
