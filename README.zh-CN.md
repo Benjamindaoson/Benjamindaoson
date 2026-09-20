@@ -2,15 +2,25 @@
 
 # 赖建铭 · Benjamin Daoson
 
-我主要做三条技术主线：**可靠智能体系统、LLM 后训练与评估、Physical AI**。
+我主要构建 **可靠智能体系统**，研究 **LLM 后训练与评估**，并探索 **Physical AI**。
 
-| 🤖 智能体系统 | 🧠 大模型与模型系统 | 🦾 Physical AI |
-| --- | --- | --- |
-| Runtime · 状态 · 工具 · 恢复 · 评估 | 后训练 · 奖励模型 · 偏好学习 · 多模态评估 | VLA · 仿真 · 物理证据 · 具身数据 |
+整个作品集按 **AI Systems Lab** 组织：5 个 Hub 负责技术主线、项目导航和小型实验的归档；旗舰系统与活跃研究继续保留独立仓库。
+
+## AI Systems Lab
+
+| Hub | 技术范围 |
+| --- | --- |
+| [Agent Systems Lab](https://github.com/Benjamindaoson/Agent-Systems-Lab) | Agent Runtime、Harness、规划、工具、记忆、恢复、评测与企业级 RAG |
+| [LLM Systems Lab](https://github.com/Benjamindaoson/LLM-Systems-Lab) | 后训练、奖励模型、偏好优化、鲁棒性与多模态 Judge |
+| [Embodied AI Lab](https://github.com/Benjamindaoson/Embodied-AI-Lab) | VLA、机器人学习、具身数据、遥操作、仿真与真机评测 |
+| [AI Research Lab](https://github.com/Benjamindaoson/AI-Research-Lab) | 研究问题、Benchmark、受控实验与论文型研究产物 |
+| [Engineering Tools Lab](https://github.com/Benjamindaoson/Engineering-Tools-Lab) | AI 工程基础设施、开发者效率、Release Gate 与自动化 |
+
+Hub 只负责组织和解释，不吸收独立旗舰仓库。
 
 ---
 
-## 旗舰项目
+## 旗舰与重点项目
 
 ### 🤖 智能体系统
 
@@ -18,12 +28,12 @@
 <tr>
 <td width="33%" valign="top">
 
-<a href="https://github.com/Benjamindaoson/enterprise-data-agent"><img src="./assets/cards-v3/enterprise-data-agent-architecture.svg" width="100%" alt="BA Agent 架构" /></a>
+<a href="https://github.com/Benjamindaoson/enterprise-data-agent"><img src="./assets/cards-v3/enterprise-data-agent-architecture.svg" width="100%" alt="Enterprise Data Agent 架构" /></a>
 
-### [BA Agent｜商业分析智能体](https://github.com/Benjamindaoson/enterprise-data-agent) <code>旗舰项目</code>
-**Business Intelligence & Autonomous Operations**
+### [Enterprise Data Agent](https://github.com/Benjamindaoson/enterprise-data-agent) <code>旗舰项目</code>
+**企业数据分析与自主运营**
 
-长程商业分析 Agent：持久任务状态、Semantic Layer、受治理分析、证据验证、HITL 安全、BusinessAgentBench、SFT/GRPO 实验、PostgreSQL/Redis Runtime 与可观测性。
+长程商业分析 Agent：持久任务状态、Semantic Layer、受治理分析、证据验证、HITL 安全、BusinessAgentBench、PostgreSQL/Redis Runtime 与可观测性。
 
 </td>
 <td width="33%" valign="top">
@@ -33,7 +43,7 @@
 ### [AI Engineering Project OS](https://github.com/Benjamindaoson/ai-engineering-project-os) <code>旗舰项目</code>
 **长程工程 Agent Harness**
 
-读取真实代码仓库，识别工程缺口，生成升级任务，在受控工作区修改代码并运行测试，以独立验证和证据记录判断任务是否真实完成。
+读取真实代码仓库，识别工程缺口，在受控工作区执行修改，通过测试与证据验证完成状态，支持持久化、失败恢复和重新审计。
 
 </td>
 <td width="33%" valign="top">
@@ -43,7 +53,7 @@
 ### [SalesBoost](https://github.com/Benjamindaoson/SalesBoost) <code>旗舰项目</code>
 **企业级多智能体销售平台**
 
-面向真实销售赋能场景，覆盖多智能体编排、Hybrid RAG、记忆、业务流程、评估与可观测性。
+覆盖智能体编排、Hybrid RAG、记忆、业务流程、评估与可观测性的生产形态销售赋能系统。
 
 </td>
 </tr>
@@ -60,7 +70,7 @@
 ### [Reward Modeling Lab](https://github.com/Benjamindaoson/reward-modeling-lab) <code>旗舰项目</code>
 **8B 奖励模型后训练**
 
-单卡 4-bit QLoRA 训练奖励模型，并继续做 shortcut、ranking 与 robustness 审计，重点判断模型是否“因为正确的原因”取得高分。
+单卡 4-bit QLoRA 奖励模型训练，并继续进行 shortcut、ranking 与 robustness 审计，重点判断模型是否“因为正确的原因”取得高分。
 
 </td>
 <td width="50%" valign="top">
@@ -80,17 +90,25 @@
 
 <table>
 <tr>
-<td width="60%" valign="top">
+<td width="34%" valign="top">
 
 <a href="https://github.com/Benjamindaoson/FitGround"><img src="https://raw.githubusercontent.com/Benjamindaoson/FitGround/main/reports/figures/01_system_architecture_en.png" width="100%" alt="FitGround 系统架构" /></a>
 
 ### [FitGround](https://github.com/Benjamindaoson/FitGround) <code>旗舰项目</code>
 **基于物理证据的决策引擎**
 
-可执行纸样参数 → 实测几何 → 仿真证据 → 显式下一版修改决策 / 拒答。强调物理证据，不把视觉合理性当作真实测量。
+可执行纸样参数 → 实测几何 → 仿真证据 → 显式下一版修改决策或拒答。
 
 </td>
-<td width="40%" valign="top">
+<td width="33%" valign="top">
+
+### [Embodied-DataOps](https://github.com/Benjamindaoson/Embodied-DataOps) <code>建设中</code>
+**具身数据基础设施**
+
+Physical AI 数据与评测入口，覆盖机器人数据采集、遥操作、仿真、数据血缘、评估和 VLA 训练工作流；规划能力与已实现证据分开标注。
+
+</td>
+<td width="33%" valign="top">
 
 <img src="./assets/cards-v3/smolvla-protocol.svg" width="100%" alt="SmolVLA LIBERO-Plus 微型实验协议" />
 
@@ -111,11 +129,9 @@
 
 - [SmartOrderingAgent](https://github.com/Benjamindaoson/SmartOrderingAgent) — 显式确认、事务安全、受控写操作的餐厅订位 Agent。
 - [API Test Platform](https://github.com/Benjamindaoson/api-test-platform) — 面向 API 质量的变更影响分析、测试生成、执行和 Release Gate。
-- [StuckToShip / AIEduRAG](https://github.com/Benjamindaoson/AIEduRAG) — 面向 RAG / LangGraph / MCP 学习过程的证据驱动 AI 工程导师。
-- [Haole](https://github.com/Benjamindaoson/haole) — Redis Streams、MCP、HITL、耐久事件驱动的多智能体工作台。
+- [AIEduRAG](https://github.com/Benjamindaoson/AIEduRAG) — 面向 RAG、LangGraph 与 MCP 学习过程的证据驱动 AI 工程导师。
+- [Haole](https://github.com/Benjamindaoson/haole) — Redis Streams、MCP、HITL 与耐久事件驱动的多智能体工作台。
 - [Financial Asset QA System](https://github.com/Benjamindaoson/Financial_Asset_QA_System) — 金融 QA 的确定性流水线、工具执行、数据校验与受控生成。
-
----
 
 ## 教学与公开基础设施
 
@@ -123,18 +139,14 @@
 - [TIAI Website](https://github.com/Benjamindaoson/TIAI_website) — 机构网站。
 - [个人网站](https://github.com/Benjamindaoson/daoson_website) — 技术文章、项目记录与公开知识库。
 
----
-
 ## 作品集原则
 
-公开仓库尽量明确区分：
+公开仓库明确区分：
 
 - **已实现** 与计划；
 - **已测量** 与示意值；
 - **生产形态** 与真实生产部署；
 - **研究证据** 与产品宣传。
-
-公开作品集会刻意比私有实验仓更少、更聚焦。
 
 <p align="center">
   <sub><b>构建有用的 AI 系统 · 做真实实验 · 只报告可验证结果。</b></sub>
