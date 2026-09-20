@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#111827"/></linearGradient>
+  <style>
+    .h{font:700 34px Inter,Arial,sans-serif;fill:#f8fafc}.s{font:500 18px Inter,Arial,sans-serif;fill:#94a3b8}
+    .b{fill:#111c2d;stroke:#334155;stroke-width:2;rx:18}.t{font:700 22px Inter,Arial,sans-serif;fill:#e2e8f0}
+    .x{font:500 15px Inter,Arial,sans-serif;fill:#94a3b8}.a{stroke:#475569;stroke-width:3;fill:none;marker-end:url(#m)}
+  </style>
+  <marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#64748b"/></marker>
+</defs>
+<rect width="1200" height="620" fill="url(#bg)"/>
+<text x="60" y="70" class="h">AI Engineering Project OS</text>
+<text x="60" y="105" class="s">Long-horizon engineering Agent Harness for real repositories</text>
+<rect x="65" y="170" width="190" height="95" class="b"/><text x="160" y="208" text-anchor="middle" class="t">Audit</text><text x="160" y="236" text-anchor="middle" class="x">repo understanding</text>
+<rect x="285" y="170" width="190" height="95" class="b"/><text x="380" y="208" text-anchor="middle" class="t">Plan</text><text x="380" y="236" text-anchor="middle" class="x">gap → tasks</text>
+<rect x="505" y="170" width="190" height="95" class="b"/><text x="600" y="208" text-anchor="middle" class="t">Execute</text><text x="600" y="236" text-anchor="middle" class="x">sandbox changes</text>
+<rect x="725" y="170" width="190" height="95" class="b"/><text x="820" y="208" text-anchor="middle" class="t">Verify</text><text x="820" y="236" text-anchor="middle" class="x">tests + evidence</text>
+<rect x="945" y="170" width="190" height="95" class="b"/><text x="1040" y="208" text-anchor="middle" class="t">Re-Audit</text><text x="1040" y="236" text-anchor="middle" class="x">versioned maturity</text>
+<path d="M255 218 L285 218 M475 218 L505 218 M695 218 L725 218 M915 218 L945 218" class="a"/>
+<rect x="135" y="360" width="260" height="105" class="b"/><text x="265" y="400" text-anchor="middle" class="t">Durable State</text><text x="265" y="430" text-anchor="middle" class="x">checkpoint · resume · recovery</text>
+<rect x="470" y="360" width="260" height="105" class="b"/><text x="600" y="400" text-anchor="middle" class="t">Tool Runtime</text><text x="600" y="430" text-anchor="middle" class="x">files · shell · tests · sandbox</text>
+<rect x="805" y="360" width="260" height="105" class="b"/><text x="935" y="400" text-anchor="middle" class="t">Evidence</text><text x="935" y="430" text-anchor="middle" class="x">trace · verification · versions</text>
+<text x="600" y="555" text-anchor="middle" class="s">Plan → Act → Observe → Verify → Replan</text>
+</svg>
