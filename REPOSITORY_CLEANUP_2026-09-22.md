@@ -1,137 +1,85 @@
-# Repository Cleanup — 2026-09-22
+# Repository Cleanup — Revised 2026-09-22
 
-This document is the account-level cleanup ledger for the Benjamindaoson GitHub
-account. The goal is not to minimize repository count blindly; it is to keep one
-canonical repository per durable project or research claim.
+This ledger distinguishes **preserved elsewhere** from **should be deleted**.
+Migration safety is not the same as deletion value.
 
-## DELETE SAFE NOW
+## KEEP — independent public/navigation value
 
-These repositories have no remaining unique active-project role.
+- `Agent-Systems-Lab` — public landing page for Agent systems.
+- `LLM-Systems-Lab` — public landing page for post-training/model systems.
+- `Embodied-AI-Lab` — public landing page for Physical AI.
+- `AI-Research-Lab` — cross-cutting research map and protocol index.
+- `Engineering-Tools-Lab` — developer/engineering tooling map.
+- `scientific-agent` — canonical public-name destination for the AI Scientist consolidation.
+- `Benjamindaoson_website` — archived public website history; deleting can break old public URLs.
+- `gitpagewebnote` — archived public notes/history and redirect surface; deleting can break old URLs.
 
-### Navigation Hubs — fully migrated into the Profile repository
+The Profile repository also mirrors the five Lab pages for account-level navigation.
+Those mirrors are convenience copies, not replacement reasons to delete the Labs.
 
-All source top-level files were copied into
-`Benjamindaoson/Benjamindaoson/labs/`, with exact source blob SHAs recorded in
-`labs/MIGRATION_MANIFEST.md`. Their README files now point to the Profile copy.
+## KEEP ARCHIVED / HISTORICAL — useful provenance
 
-- `Agent-Systems-Lab`
-- `LLM-Systems-Lab`
-- `Embodied-AI-Lab`
-- `AI-Research-Lab`
-- `Engineering-Tools-Lab`
+- `scrapboss` — focused multi-source job-market research tool; full snapshot also preserved in `career-intelligence-os`.
+- `crossborder-ops-agent-python` — production-shaped FastAPI business-Agent backend and evolution provenance for `enterprise-data-agent`.
+- `data-ananlysis-demo` — UI/data-analysis prototype and Figma-origin design history.
+- `pachongliepin` — source-specific crawler prototype; implementation also preserved in Career Intelligence OS.
+- `pachongjobjd` — source-specific position-catalog crawler and fixtures; also preserved in Career Intelligence OS.
+- `project-collection-qidian-research-phase1` — bounded real crawler/research artifact; keep archived unless the entire research line is intentionally retired.
+- `project-collection-repeat-transformer` — substantial handwritten Transformer / LLM teaching course; potential future standalone educational asset.
+- `project-collection-tiai-v0` — optional historical website snapshot.
+- `project-collection-tiai-website-v1` — optional historical website snapshot.
 
-### Empty duplicate
+## DELETE CANDIDATES — genuinely redundant or empty
 
-- `scientific-agent` — was empty; canonical implementation is
-  `ai-scientist`. A DELETE SAFE README has been added.
+These are the strongest deletion candidates because the standalone repository adds little beyond an already verified preserved copy.
 
-### Private project-collection snapshots already preserved elsewhere
+1. `project-collection-crossborder-ops-agent-python`
+   - verified empty / 0 blobs.
 
-- `project-collection-crossborder-ops-agent-python` — verified empty.
-- `project-collection-mini-claw` — verified effectively empty.
-- `project-collection-handwrite-transformer` — snapshot preserved in
-  `private-reference-archive`.
-- `project-collection-kimi-agent-vscode-clone` — all 104 source blobs
-  accounted for in `private-reference-archive`.
-- `project-collection-langchain-learning-lab` — snapshot preserved privately;
-  useful teaching content also lives in `ai-agent-engineering-lab`.
-- `project-collection-qidian-research-phase1` — all 6 source blobs preserved.
-- `project-collection-repeat-transformer` — all 58 source blobs preserved.
-- `project-collection-tiai-v0` — preserved privately; canonical site is
-  `TIAI_website`.
-- `project-collection-tiai-website-v1` — preserved privately; canonical site
-  is `TIAI_website`.
-- `project-collection-tradingagents-main` — 74/74 blobs preserved with
-  upstream license and attribution; not an authored portfolio project.
+2. `project-collection-mini-claw`
+   - verified effectively empty / 0 project blobs.
 
-### Legacy sources already copied to a canonical successor/archive
+3. `project-collection-handwrite-transformer`
+   - tiny placeholder, not the real Transformer implementation;
+   - exact placeholder snapshot preserved privately.
 
-- `scrapboss` — complete 66/66 blob snapshot preserved under `career-intelligence-os/legacy_imports/scrapboss/`; 0 SHA mismatches; canonical successor: `career-intelligence-os`.
-- `crossborder-ops-agent-python` — 70/70 blob snapshot preserved in
-  `private-reference-archive`; active successor: `enterprise-data-agent`.
-- `data-ananlysis-demo` — 50/50 blob snapshot preserved in
-  `private-reference-archive`; active successor: `enterprise-data-agent`.
-- `pachongliepin` — source implementation preserved under
-  `career-intelligence-os/legacy_imports/liepin/`.
-- `pachongjobjd` — source implementation and fixtures preserved under
-  `career-intelligence-os/legacy_imports/unitree-job-crawler/`.
+4. `project-collection-kimi-agent-vscode-clone`
+   - private reference snapshot;
+   - all 104 original blobs accounted for in `private-reference-archive`.
 
-### Superseded websites
+5. `project-collection-langchain-learning-lab`
+   - learning snapshot already preserved privately;
+   - useful teaching material is also consolidated into `ai-agent-engineering-lab`.
 
-- `Benjamindaoson_website` — superseded by `daoson_website`.
-- `gitpagewebnote` — content consolidated into `daoson_website`.
+6. `project-collection-tradingagents-main`
+   - third-party reference snapshot rather than authored project;
+   - 74/74 blobs preserved with upstream license and attribution in `private-reference-archive`.
 
-Deleting all repositories in this section would reduce the account by **23
-repositories** without removing an active canonical project.
+These six are the only repositories in the reviewed set that I currently recommend deleting without a strong reason to retain the standalone repository.
 
-## ARCHIVE / KEEP FOR PROVENANCE
+## OPTIONAL DELETE AFTER PERSONAL PREFERENCE CHECK
 
-- `financial-asset-qa-system` — core RAG capabilities have been consolidated
-  into FinEvidence, but the old repository still carries product history and
-  should remain archived until a later history-retention decision.
-- `chinese-news-classification` — maintained legacy model-systems case study.
-- `trajectory-level-alignment` — withdrawn research line; keep private until
-  its useful artifacts are moved into the private archive.
+- `project-collection-tiai-v0`
+- `project-collection-tiai-website-v1`
 
-## MERGE NEXT — DO NOT DELETE YET
+Both are preserved and superseded by `TIAI_website`, but old website versions can still be useful design/provenance references. Archive is a reasonable final state.
 
-These repositories overlap with a canonical destination but still contain
-unique code that must be moved before deletion.
+## CONSOLIDATE NEXT — not deletion-ready
 
-| Source | Canonical destination | Reason |
-| --- | --- | --- |
-| `agentic-delivery-os` | `ai-engineering-project-os` | Delivery/runtime/governance capabilities overlap with long-horizon engineering harness |
-| `design-os` | `ai-engineering-project-os` or private reference archive | Product-design specification workflow supports engineering-agent intake but is not a separate flagship |
-| `shopkeeper_brain` | `finevidence-financial-rag` | Financial internal-knowledge RAG overlaps with FinEvidence document/evidence pipeline |
-| `financial-reward-agentic-rl` | future private post-training experiments repo | Same training/evaluation family as the two repositories below |
-| `text2sql-agentic-rl` | future private post-training experiments repo | Agentic RL experiment |
-| `multimodal-chart-gspo` | future private post-training experiments repo | Multimodal preference/post-training experiment |
+- `ai-scientist` → `scientific-agent` as one Scientific Agent project.
+- `agentic-delivery-os` + selected `design-os` capabilities → `ai-engineering-project-os`.
+- `shopkeeper_brain` → evaluate against FinEvidence before any merge.
+- `financial-reward-agentic-rl`, `text2sql-agentic-rl`, and `multimodal-chart-gspo` → decide whether they form one post-training experiments repository or remain separate research protocols.
 
-## CANONICAL KEEP
+## Principle
 
-### Public flagships / research flagships
+Use four states, not two:
 
-- `enterprise-data-agent`
-- `ai-engineering-project-os`
-- `multimodal-content-creation-agent`
-- `finevidence-financial-rag` (FinEvidence)
-- `reward-modeling-lab`
-- `RewardLens`
-- `FitGround`
-- `Embodied-DataOps`
+```text
+KEEP ACTIVE
+KEEP ARCHIVED
+MERGE THEN ARCHIVE
+DELETE ONLY WHEN TRULY REDUNDANT
+```
 
-### Public case studies / products
-
-- `SalesBoost`
-- `haole-mas`
-- `api-test-platform`
-- `SmartOrderingAgent`
-- `stuck-to-ship`
-- `huisen-ai-adaptive-algorithm-coach`
-- `ai-investment-research-assistant`
-- `ai-agent-engineering-lab`
-- `ai-scientist`
-
-### Public infrastructure
-
-- `Benjamindaoson`
-- `daoson_website`
-- `TIAI_website`
-
-### Private canonical / active research
-
-- `career-intelligence-os`
-- `private-reference-archive`
-- `academic-agent`
-- `StateLegacy-E0`
-- `smolvla-libero-plus-micro-pilot`
-- `bazi-core`
-
-## Target
-
-After deleting the 23 DELETE SAFE repositories, the account moves from roughly
-58 repositories to roughly **35**.
-
-The next merge wave is intended to reduce the remaining count into the
-**high-20s / low-30s** while preserving distinct flagship, product, and research
-boundaries.
+The objective is a legible GitHub portfolio without destroying useful technical history.
