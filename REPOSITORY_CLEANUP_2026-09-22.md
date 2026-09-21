@@ -46,6 +46,7 @@ All source top-level files were copied into
 
 ### Legacy sources already copied to a canonical successor/archive
 
+- `scrapboss` — complete 66/66 blob snapshot preserved under `career-intelligence-os/legacy_imports/scrapboss/`; 0 SHA mismatches; canonical successor: `career-intelligence-os`.
 - `crossborder-ops-agent-python` — 70/70 blob snapshot preserved in
   `private-reference-archive`; active successor: `enterprise-data-agent`.
 - `data-ananlysis-demo` — 50/50 blob snapshot preserved in
@@ -60,7 +61,7 @@ All source top-level files were copied into
 - `Benjamindaoson_website` — superseded by `daoson_website`.
 - `gitpagewebnote` — content consolidated into `daoson_website`.
 
-Deleting all repositories in this section would reduce the account by **22
+Deleting all repositories in this section would reduce the account by **23
 repositories** without removing an active canonical project.
 
 ## ARCHIVE / KEEP FOR PROVENANCE
@@ -79,7 +80,6 @@ unique code that must be moved before deletion.
 
 | Source | Canonical destination | Reason |
 | --- | --- | --- |
-| `scrapboss` | `career-intelligence-os` | Adds Greenhouse, Ashby, Lever, ByteDance, BOSS collectors, market analysis, evidence, labeling, and source registry |
 | `agentic-delivery-os` | `ai-engineering-project-os` | Delivery/runtime/governance capabilities overlap with long-horizon engineering harness |
 | `design-os` | `ai-engineering-project-os` or private reference archive | Product-design specification workflow supports engineering-agent intake but is not a separate flagship |
 | `shopkeeper_brain` | `finevidence-financial-rag` | Financial internal-knowledge RAG overlaps with FinEvidence document/evidence pipeline |
@@ -129,8 +129,8 @@ unique code that must be moved before deletion.
 
 ## Target
 
-After deleting the 22 DELETE SAFE repositories, the account moves from roughly
-58 repositories to roughly **36**.
+After deleting the 23 DELETE SAFE repositories, the account moves from roughly
+58 repositories to roughly **35**.
 
 The next merge wave is intended to reduce the remaining count into the
 **high-20s / low-30s** while preserving distinct flagship, product, and research
