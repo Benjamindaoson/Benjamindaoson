@@ -18,6 +18,8 @@ My work is organized around three technical lines—**Agent Systems, LLM & Model
 
 The Hubs organize and explain the portfolio. They do not absorb independent flagship repositories.
 
+Canonical status, ownership, and archive mapping: [Portfolio Index](./PORTFOLIO_INDEX.md).
+
 ---
 
 ## Six representative projects
