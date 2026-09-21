@@ -4,7 +4,7 @@
 
 我主要构建 **可靠智能体系统**，研究 **LLM 后训练与评估**，并探索 **Physical AI**。
 
-整个作品集按 **AI Systems Lab** 组织：5 个 Hub 负责技术主线、项目导航和小型实验的归档；旗舰系统与活跃研究继续保留独立仓库。
+作品集只突出三条技术主线：**智能体系统、大模型与模型系统、Physical AI**。5 个 Hub 负责导航与研究地图，6 个代表项目继续保留独立仓库。
 
 ## AI Systems Lab
 
@@ -20,7 +20,7 @@ Hub 只负责组织和解释，不吸收独立旗舰仓库。
 
 ---
 
-## 旗舰与重点项目
+## 6 个代表项目
 
 ### 🤖 智能体系统
 
@@ -90,7 +90,7 @@ Hub 只负责组织和解释，不吸收独立旗舰仓库。
 
 <table>
 <tr>
-<td width="34%" valign="top">
+<td width="100%" valign="top">
 
 <a href="https://github.com/Benjamindaoson/FitGround"><img src="https://raw.githubusercontent.com/Benjamindaoson/FitGround/main/reports/figures/01_system_architecture_en.png" width="100%" alt="FitGround 系统架构" /></a>
 
@@ -100,26 +100,10 @@ Hub 只负责组织和解释，不吸收独立旗舰仓库。
 可执行纸样参数 → 实测几何 → 仿真证据 → 显式下一版修改决策或拒答。
 
 </td>
-<td width="33%" valign="top">
-
-### [Embodied-DataOps](https://github.com/Benjamindaoson/Embodied-DataOps) <code>建设中</code>
-**具身数据基础设施**
-
-Physical AI 数据与评测入口，覆盖机器人数据采集、遥操作、仿真、数据血缘、评估和 VLA 训练工作流；规划能力与已实现证据分开标注。
-
-</td>
-<td width="33%" valign="top">
-
-<img src="./assets/cards-v3/smolvla-protocol.svg" width="100%" alt="SmolVLA LIBERO-Plus 微型实验协议" />
-
-### SmolVLA + LIBERO-Plus Micro-Pilot <code>私有研究</code>
-**VLA 适配研究**
-
-围绕 `lerobot/smolvla_libero` 的初始状态 OOD 受控实验。研究尚未完成前保持私有，不展示未经验证的 GPU 结果。
-
-</td>
 </tr>
 </table>
+
+当前 Physical AI 建设项目：[Embodied-DataOps](https://github.com/Benjamindaoson/Embodied-DataOps) 以 **Active Build** 身份收录于 [Embodied AI Lab](https://github.com/Benjamindaoson/Embodied-AI-Lab)。私有研究只描述方向，不提供不可访问链接。
 
 ---
 
@@ -129,9 +113,9 @@ Physical AI 数据与评测入口，覆盖机器人数据采集、遥操作、�
 
 - [SmartOrderingAgent](https://github.com/Benjamindaoson/SmartOrderingAgent) — 显式确认、事务安全、受控写操作的餐厅订位 Agent。
 - [API Test Platform](https://github.com/Benjamindaoson/api-test-platform) — 面向 API 质量的变更影响分析、测试生成、执行和 Release Gate。
-- [AIEduRAG](https://github.com/Benjamindaoson/AIEduRAG) — 面向 RAG、LangGraph 与 MCP 学习过程的证据驱动 AI 工程导师。
-- [Haole](https://github.com/Benjamindaoson/haole) — Redis Streams、MCP、HITL 与耐久事件驱动的多智能体工作台。
-- [Financial Asset QA System](https://github.com/Benjamindaoson/Financial_Asset_QA_System) — 金融 QA 的确定性流水线、工具执行、数据校验与受控生成。
+- [StuckToShip](https://github.com/Benjamindaoson/stuck-to-ship) — 面向 RAG、LangGraph 与 MCP 学习过程的证据驱动 AI 工程导师。
+- [haole-mas](https://github.com/Benjamindaoson/haole-mas) — Redis Streams、MCP、HITL 与耐久事件驱动的多智能体工作台。
+- [Financial Asset QA System](https://github.com/Benjamindaoson/financial-asset-qa-system) — 金融 QA 的确定性流水线、工具执行、数据校验与受控生成。
 
 ## 教学与公开基础设施
 
