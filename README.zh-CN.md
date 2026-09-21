@@ -113,9 +113,9 @@ Hub 只负责组织和解释，不吸收独立旗舰仓库。
 
 - [SmartOrderingAgent](https://github.com/Benjamindaoson/SmartOrderingAgent) — 显式确认、事务安全、受控写操作的餐厅订位 Agent。
 - [API Test Platform](https://github.com/Benjamindaoson/api-test-platform) — 面向 API 质量的变更影响分析、测试生成、执行和 Release Gate。
-- [StuckToShip](https://github.com/Benjamindaoson/stuck-to-ship) — 面向 RAG、LangGraph 与 MCP 学习过程的证据驱动 AI 工程导师。
-- [haole-mas](https://github.com/Benjamindaoson/haole-mas) — Redis Streams、MCP、HITL 与耐久事件驱动的多智能体工作台。
-- [Financial Asset QA System](https://github.com/Benjamindaoson/financial-asset-qa-system) — 金融 QA 的确定性流水线、工具执行、数据校验与受控生成。
+- [StuckToShip](https://github.com/Benjamindaoson/AIEduRAG) — 面向 RAG、LangGraph 与 MCP 学习过程的证据驱动 AI 工程导师。
+- [haole-mas](https://github.com/Benjamindaoson/haole) — Redis Streams、MCP、HITL 与耐久事件驱动的多智能体工作台。
+- [Financial Asset QA System](https://github.com/Benjamindaoson/Financial_Asset_QA_System) — 金融 QA 的确定性流水线、工具执行、数据校验与受控生成。
 
 ## 教学与公开基础设施
 
