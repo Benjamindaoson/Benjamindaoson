@@ -4,7 +4,7 @@
 
 I build **reliable AI Agent systems**, study **LLM post-training and evaluation**, and explore **Physical AI**.
 
-My work is organized as an **AI Systems Lab**: five navigation Hubs connect the public portfolio, while flagship systems and active research retain independent repositories.
+My work is organized around three technical lines—**Agent Systems, LLM & Model Systems, and Physical AI**. Five navigation Hubs map the portfolio, while six representative projects remain independent repositories.
 
 ## AI Systems Lab
 
@@ -20,7 +20,7 @@ The Hubs organize and explain the portfolio. They do not absorb independent flag
 
 ---
 
-## Featured projects
+## Six representative projects
 
 ### 🤖 Agent Systems
 
@@ -90,7 +90,7 @@ Controlled visual interventions test whether models with similar static accuracy
 
 <table>
 <tr>
-<td width="34%" valign="top">
+<td width="100%" valign="top">
 
 <a href="https://github.com/Benjamindaoson/FitGround"><img src="https://raw.githubusercontent.com/Benjamindaoson/FitGround/main/reports/figures/01_system_architecture_en.png" width="100%" alt="FitGround system architecture" /></a>
 
@@ -100,26 +100,10 @@ Controlled visual interventions test whether models with similar static accuracy
 Executable garment parameters → measured geometry → simulation evidence → explicit next-edit decision or abstention.
 
 </td>
-<td width="33%" valign="top">
-
-### [Embodied-DataOps](https://github.com/Benjamindaoson/Embodied-DataOps) <code>ACTIVE BUILD</code>
-**Embodied Data Infrastructure**
-
-Physical AI data and evaluation entry point spanning robot data collection, teleoperation, simulation, dataset lineage, evaluation, and VLA training workflows. Roadmap items are labeled separately from implemented evidence.
-
-</td>
-<td width="33%" valign="top">
-
-<img src="./assets/cards-v3/smolvla-protocol.svg" width="100%" alt="SmolVLA LIBERO-Plus micro-pilot protocol" />
-
-### SmolVLA + LIBERO-Plus Micro-Pilot <code>PRIVATE RESEARCH</code>
-**VLA Adaptation Research**
-
-Controlled initial-state OOD protocol around `lerobot/smolvla_libero`. Private while experiments are being developed; no unverified GPU result is claimed.
-
-</td>
 </tr>
 </table>
+
+Current Physical AI build: [Embodied-DataOps](https://github.com/Benjamindaoson/Embodied-DataOps) is tracked as an **Active Build** in the [Embodied AI Lab](https://github.com/Benjamindaoson/Embodied-AI-Lab). Private research is described by direction only and is not linked.
 
 ---
 
@@ -129,9 +113,9 @@ These systems and experiments have independent value but are intentionally not p
 
 - [SmartOrderingAgent](https://github.com/Benjamindaoson/SmartOrderingAgent) — approval-gated reservation Agent with deterministic business writes.
 - [API Test Platform](https://github.com/Benjamindaoson/api-test-platform) — Agent-assisted API quality, regression planning, and evidence-based release gates.
-- [AIEduRAG](https://github.com/Benjamindaoson/AIEduRAG) — evidence-grounded AI engineering tutor for RAG, LangGraph, and MCP learning.
-- [Haole](https://github.com/Benjamindaoson/haole) — multi-Agent workspace with Redis Streams, MCP, HITL, and durable events.
-- [Financial Asset QA System](https://github.com/Benjamindaoson/Financial_Asset_QA_System) — deterministic financial QA pipeline with tool execution, validation, and guarded synthesis.
+- [StuckToShip](https://github.com/Benjamindaoson/stuck-to-ship) — evidence-grounded AI engineering tutor for RAG, LangGraph, and MCP learning.
+- [haole-mas](https://github.com/Benjamindaoson/haole-mas) — multi-Agent workspace with Redis Streams, MCP, HITL, and durable events.
+- [Financial Asset QA System](https://github.com/Benjamindaoson/financial-asset-qa-system) — deterministic financial QA pipeline with tool execution, validation, and guarded synthesis.
 
 ## Teaching & public infrastructure
 
