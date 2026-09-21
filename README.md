@@ -48,12 +48,12 @@ Audits real repositories, identifies engineering gaps, executes changes in a con
 </td>
 <td width="33%" valign="top">
 
-<a href="https://github.com/Benjamindaoson/SalesBoost"><img src="./assets/cards-v3/salesboost-architecture.svg" width="100%" alt="SalesBoost architecture" /></a>
+<a href="https://github.com/Benjamindaoson/multimodal-content-creation-agent"><img src="./assets/cards-v3/multimodal-content-agent.svg" width="100%" alt="Multimodal Content Creation Agent architecture" /></a>
 
-### [SalesBoost](https://github.com/Benjamindaoson/SalesBoost) <code>FLAGSHIP</code>
-**Enterprise Multi-Agent Sales Platform**
+### [Multimodal Content Creation Agent](https://github.com/Benjamindaoson/multimodal-content-creation-agent) <code>FLAGSHIP</code>
+**Recoverable Multimodal Production Runtime**
 
-Production-shaped sales enablement system spanning orchestration, Hybrid RAG, memory, evaluation, business workflows, and observability.
+Plans scripts and shots, orchestrates text/image/speech/video tools, checkpoints long-running jobs, evaluates outputs, gates human approval, and records publishing feedback.
 
 </td>
 </tr>
@@ -111,6 +111,7 @@ Current Physical AI build: [Embodied-DataOps](https://github.com/Benjamindaoson/
 
 These systems and experiments have independent value but are intentionally not positioned at the same level as the flagship portfolio.
 
+- [SalesBoost](https://github.com/Benjamindaoson/SalesBoost) — enterprise multi-Agent sales platform with Hybrid RAG, workflows, evaluation, and observability.
 - [SmartOrderingAgent](https://github.com/Benjamindaoson/SmartOrderingAgent) — approval-gated reservation Agent with deterministic business writes.
 - [API Test Platform](https://github.com/Benjamindaoson/api-test-platform) — Agent-assisted API quality, regression planning, and evidence-based release gates.
 - [StuckToShip](https://github.com/Benjamindaoson/stuck-to-ship) — evidence-grounded AI engineering tutor for RAG, LangGraph, and MCP learning.
