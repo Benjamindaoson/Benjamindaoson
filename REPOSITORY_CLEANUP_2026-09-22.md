@@ -51,11 +51,12 @@ These are the strongest deletion candidates because the standalone repository ad
    - learning snapshot already preserved privately;
    - useful teaching material is also consolidated into `ai-agent-engineering-lab`.
 
-6. `project-collection-tradingagents-main`
-   - third-party reference snapshot rather than authored project;
-   - 74/74 blobs preserved with upstream license and attribution in `private-reference-archive`.
 
-These six are the only repositories in the reviewed set that I currently recommend deleting without a strong reason to retain the standalone repository.
+These repositories are the strongest current deletion candidates. `project-collection-tradingagents-main` has been removed from this list because it is a viable modification base for a distinct financial multi-agent research project.
+
+## KEEP / MODIFICATION CANDIDATE
+
+- `project-collection-tradingagents-main` — Apache-2.0 third-party base with a complete multi-agent financial decision graph. Keep as a modification candidate; if revived, sync against current upstream before development and preserve attribution/license notices.
 
 ## OPTIONAL DELETE AFTER PERSONAL PREFERENCE CHECK
 
