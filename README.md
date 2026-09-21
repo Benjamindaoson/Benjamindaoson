@@ -4,19 +4,19 @@
 
 I build **reliable AI Agent systems**, study **LLM post-training and evaluation**, and explore **Physical AI**.
 
-My work is organized around three technical lines—**Agent Systems, LLM & Model Systems, and Physical AI**. Five navigation Hubs map the portfolio, while six representative projects remain independent repositories.
+My work is organized around three technical lines—**Agent Systems, LLM & Model Systems, and Physical AI**. Five integrated Lab pages map the portfolio, while representative projects remain independent repositories.
 
 ## AI Systems Lab
 
 | Hub | Scope |
 | --- | --- |
-| [Agent Systems Lab](https://github.com/Benjamindaoson/Agent-Systems-Lab) | Agent runtime, harness, planning, tools, memory, recovery, evaluation, and enterprise RAG |
-| [LLM Systems Lab](https://github.com/Benjamindaoson/LLM-Systems-Lab) | Post-training, reward modeling, preference optimization, robustness, and multimodal judges |
-| [Embodied AI Lab](https://github.com/Benjamindaoson/Embodied-AI-Lab) | VLA, robot learning, embodied data, teleoperation, simulation, and real-world evaluation |
-| [AI Research Lab](https://github.com/Benjamindaoson/AI-Research-Lab) | Research questions, benchmarks, controlled experiments, and paper-oriented artifacts |
-| [Engineering Tools Lab](https://github.com/Benjamindaoson/Engineering-Tools-Lab) | AI engineering infrastructure, developer productivity, release gates, and automation |
+| [Agent Systems Lab](./labs/agent-systems/README.md) | Agent runtime, harness, planning, tools, memory, recovery, evaluation, and enterprise RAG |
+| [LLM Systems Lab](./labs/llm-systems/README.md) | Post-training, reward modeling, preference optimization, robustness, and multimodal judges |
+| [Embodied AI Lab](./labs/embodied-ai/README.md) | VLA, robot learning, embodied data, teleoperation, simulation, and real-world evaluation |
+| [AI Research Lab](./labs/ai-research/README.md) | Research questions, benchmarks, controlled experiments, and paper-oriented artifacts |
+| [Engineering Tools Lab](./labs/engineering-tools/README.md) | AI engineering infrastructure, developer productivity, release gates, and automation |
 
-The Hubs organize and explain the portfolio. They do not absorb independent flagship repositories.
+The Lab pages are maintained inside this Profile repository. They organize and explain the portfolio without creating one repository per navigation layer.
 
 Canonical status, ownership, and archive mapping: [Portfolio Index](./PORTFOLIO_INDEX.md).
 
@@ -105,7 +105,7 @@ Executable garment parameters → measured geometry → simulation evidence → 
 </tr>
 </table>
 
-Current Physical AI build: [Embodied-DataOps](https://github.com/Benjamindaoson/Embodied-DataOps) is tracked as an **Active Build** in the [Embodied AI Lab](https://github.com/Benjamindaoson/Embodied-AI-Lab). Private research is described by direction only and is not linked.
+Current Physical AI build: [Embodied-DataOps](https://github.com/Benjamindaoson/Embodied-DataOps) is tracked as an **Active Build** in the [Embodied AI Lab](./labs/embodied-ai/README.md). Private research is described by direction only and is not linked.
 
 ---
 
@@ -118,7 +118,7 @@ These systems and experiments have independent value but are intentionally not p
 - [API Test Platform](https://github.com/Benjamindaoson/api-test-platform) — Agent-assisted API quality, regression planning, and evidence-based release gates.
 - [StuckToShip](https://github.com/Benjamindaoson/stuck-to-ship) — evidence-grounded AI engineering tutor for RAG, LangGraph, and MCP learning.
 - [haole-mas](https://github.com/Benjamindaoson/haole-mas) — multi-Agent workspace with Redis Streams, MCP, HITL, and durable events.
-- [Financial Asset QA System](https://github.com/Benjamindaoson/financial-asset-qa-system) — deterministic financial QA pipeline with tool execution, validation, and guarded synthesis.
+- [FinEvidence](https://github.com/Benjamindaoson/finevidence-financial-rag) — financial RAG and evidence-intelligence platform with structure-aware chunking, hybrid retrieval, finance-aware reranking, evidence qualification, and evaluation.
 
 ## Teaching & public infrastructure
 
