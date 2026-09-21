@@ -48,12 +48,12 @@ Hub 只负责组织和解释，不吸收独立旗舰仓库。
 </td>
 <td width="33%" valign="top">
 
-<a href="https://github.com/Benjamindaoson/SalesBoost"><img src="./assets/cards-v3/salesboost-architecture.svg" width="100%" alt="SalesBoost 架构" /></a>
+<a href="https://github.com/Benjamindaoson/multimodal-content-creation-agent"><img src="./assets/cards-v3/multimodal-content-agent.svg" width="100%" alt="多模态内容生产智能体架构" /></a>
 
-### [SalesBoost](https://github.com/Benjamindaoson/SalesBoost) <code>旗舰项目</code>
-**企业级多智能体销售平台**
+### [多模态内容生产智能体](https://github.com/Benjamindaoson/multimodal-content-creation-agent) <code>旗舰项目</code>
+**可恢复的多模态生产 Runtime**
 
-覆盖智能体编排、Hybrid RAG、记忆、业务流程、评估与可观测性的生产形态销售赋能系统。
+完成脚本与分镜规划，编排文本、图像、语音和视频工具，持久化长程任务，评估生成结果，通过人工审核门，并记录发布反馈。
 
 </td>
 </tr>
@@ -111,6 +111,7 @@ Hub 只负责组织和解释，不吸收独立旗舰仓库。
 
 这些项目有独立价值，但不会和旗舰项目放在同一层级竞争注意力。
 
+- [SalesBoost](https://github.com/Benjamindaoson/SalesBoost) — 覆盖 Hybrid RAG、业务流程、评估与可观测性的企业级多智能体销售平台。
 - [SmartOrderingAgent](https://github.com/Benjamindaoson/SmartOrderingAgent) — 显式确认、事务安全、受控写操作的餐厅订位 Agent。
 - [API Test Platform](https://github.com/Benjamindaoson/api-test-platform) — 面向 API 质量的变更影响分析、测试生成、执行和 Release Gate。
 - [StuckToShip](https://github.com/Benjamindaoson/stuck-to-ship) — 面向 RAG、LangGraph 与 MCP 学习过程的证据驱动 AI 工程导师。
