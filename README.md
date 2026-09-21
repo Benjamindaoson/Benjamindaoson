@@ -113,9 +113,9 @@ These systems and experiments have independent value but are intentionally not p
 
 - [SmartOrderingAgent](https://github.com/Benjamindaoson/SmartOrderingAgent) — approval-gated reservation Agent with deterministic business writes.
 - [API Test Platform](https://github.com/Benjamindaoson/api-test-platform) — Agent-assisted API quality, regression planning, and evidence-based release gates.
-- [StuckToShip](https://github.com/Benjamindaoson/stuck-to-ship) — evidence-grounded AI engineering tutor for RAG, LangGraph, and MCP learning.
-- [haole-mas](https://github.com/Benjamindaoson/haole-mas) — multi-Agent workspace with Redis Streams, MCP, HITL, and durable events.
-- [Financial Asset QA System](https://github.com/Benjamindaoson/financial-asset-qa-system) — deterministic financial QA pipeline with tool execution, validation, and guarded synthesis.
+- [StuckToShip](https://github.com/Benjamindaoson/AIEduRAG) — evidence-grounded AI engineering tutor for RAG, LangGraph, and MCP learning.
+- [haole-mas](https://github.com/Benjamindaoson/haole) — multi-Agent workspace with Redis Streams, MCP, HITL, and durable events.
+- [Financial Asset QA System](https://github.com/Benjamindaoson/Financial_Asset_QA_System) — deterministic financial QA pipeline with tool execution, validation, and guarded synthesis.
 
 ## Teaching & public infrastructure
 
